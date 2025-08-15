@@ -11,7 +11,17 @@ let lines = content.split("\n");
 // console.log("lines:", lines.length);
 
 for (let l of lines) {
-  console.log(whitespacePercentage(l));
+  l = l.replaceAll("\r", "").trim();
+  let p = whitespacePercentage(l);
+  if (p <= 0.3) continue;
+
+  for (let token of l.split(" ")) {
+    token = cleanToken(token);
+    if (token == "") continue;
+    console.log(token);
+  }
+  // console.log("'" + l + "'");
+  // console.log("    ", p);
 }
 
 function whitespacePercentage(inputLine) {
@@ -22,4 +32,12 @@ function whitespacePercentage(inputLine) {
   let wsCount = chars.filter((c) => c == " ").length;
 
   return wsCount / chars.length;
+}
+
+function cleanToken(token) {
+  return token
+    .trim()
+    .replaceAll("(", "")
+    .replaceAll(")", "")
+    .replaceAll("|", "");
 }
