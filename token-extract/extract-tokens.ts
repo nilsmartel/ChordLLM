@@ -1,4 +1,4 @@
-const fs = require("fs");
+import fs from "fs";
 
 function getRawInputLines(): Array<String> {
   const filepath =
