@@ -4,5 +4,5 @@ const input = getRawInputLines();
 
 for (let line of input) {
   let tokens = getTokensUnclean(line);
-  if (tokens.length > 0) console.log(tokens);
+  if (tokens.length > 0) console.log(tokens.join(" "));
 }

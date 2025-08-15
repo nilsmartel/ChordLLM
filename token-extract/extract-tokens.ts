@@ -39,6 +39,8 @@ const VALID_TOKENS = getValidTokens();
  * and, if so, returns the (transformed) tokens.
  */
 export function getTokensUnclean(line: string): string[] {
+  /* TODO recognize end of song and export as unique token */
+
   // if this percentage of tokens are valid tokens, all tokens in the line are assumed to be valid
   const CUTOFF_VALUE = 0.5;
 
