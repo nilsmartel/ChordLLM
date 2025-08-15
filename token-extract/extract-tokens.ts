@@ -1,6 +1,6 @@
 import fs from "fs";
 
-function getRawInputLines(): Array<String> {
+export function getRawInputLines(): Array<string> {
   const filepath =
     "./ultimate-guitar/ultimate-guitar-popular-tabs/top_songs_full.csv";
 
@@ -11,7 +11,7 @@ function getRawInputLines(): Array<String> {
   return lines;
 }
 
-function transformToken(token: string) {
+export function transformToken(token: string) {
   return token
     .trim()
     .replaceAll("(", "")
@@ -38,13 +38,13 @@ const VALID_TOKENS = getValidTokens();
  * deciding wether it's compromised of tokens
  * and, if so, returns the (transformed) tokens.
  */
-function getTokensUnclean(line: string): string[] {
+export function getTokensUnclean(line: string): string[] {
   // if this percentage of tokens are valid tokens, all tokens in the line are assumed to be valid
   const CUTOFF_VALUE = 0.5;
 
   // remove all whitespace from line
-  let l = line.replaceAll("\r", "").replaceAll("\t", "").trim();
-  let rawTokens: string[] = l.split(" ");
+  let l = line.replaceAll("\r", " ").replaceAll("\t", " ").trim();
+  let rawTokens: string[] = l.split(" ").filter((s) => s != "");
   if (rawTokens.length == 0) return [];
 
   let tokenratio: number =
