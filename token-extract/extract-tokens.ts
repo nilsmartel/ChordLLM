@@ -2,7 +2,7 @@ import fs from "fs";
 
 function getRawInputLines(): Array<String> {
   const filepath =
-    "../ultimate-guitar/ultimate-guitar-popular-tabs/top_songs_full.csv";
+    "./ultimate-guitar/ultimate-guitar-popular-tabs/top_songs_full.csv";
 
   let content = String(fs.readFileSync(filepath));
   // console.log("bytes:", content.length);
