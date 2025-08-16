@@ -92,5 +92,10 @@ export function getTokensUnclean(line: string): string[] {
   // the other tokens on the line are probably also valid tokens
   if (tokenratio < CUTOFF_VALUE) return [];
 
+  // for lines containing - it's really tricks, this trick does a lot of heavy lifting
+  // this does pass: Am7 - Bm7 - Cmaj7 - Am7 - Bm7 - Em - Em7
+  // this does not:  G/A       x-0-0-0-0-x
+  if (l.includes("-") && tokenratio == CUTOFF_VALUE) return [];
+
   return rawTokens;
 }
