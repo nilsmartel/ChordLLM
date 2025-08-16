@@ -34,6 +34,35 @@ function getValidTokens(): Set<String> {
 const VALID_TOKENS = getValidTokens();
 
 /**
+ * handles some common outliers and filters unwanted lines
+ */
+function transformSomeOutlierLines(line: string) {
+  if (line.includes(":")) {
+    let ll = line.toLowerCase();
+    if (ll.includes("tuning") || ll.includes("key") || ll.includes(",")) {
+      return null;
+    }
+
+    if (ll.startsWith("interlude")) return line.substring(10);
+    if (ll.startsWith("prechorus")) return line.substring(10);
+    if (ll.startsWith("refrain:")) return line.substring(8);
+    if (ll.startsWith("repeat:")) return line.substring(7);
+    if (ll.startsWith("chords:")) return line.substring(7);
+    if (ll.startsWith("chorus:")) return line.substring(7);
+    if (ll.startsWith("intro:")) return line.substring(6);
+    if (ll.startsWith("piano:")) return line.substring(6);
+    if (ll.startsWith("outro:")) return line.substring(6);
+    if (ll.startsWith("verse:")) return line.substring(6);
+    if (ll.startsWith("solo:")) return line.substring(5);
+    if (ll.startsWith("play:")) return line.substring(5);
+
+    return null;
+  }
+
+  return line;
+}
+
+/**
  * Processes a line of text,
  * deciding wether it's compromised of tokens
  * and, if so, returns the (transformed) tokens.
@@ -45,7 +74,11 @@ export function getTokensUnclean(line: string): string[] {
   const CUTOFF_VALUE = 0.5;
 
   // remove all whitespace from line
-  let l = line.replaceAll("\r", " ").replaceAll("\t", " ").trim();
+  let lraw = line.replaceAll("\r", " ").replaceAll("\t", " ").trim();
+
+  let l = transformSomeOutlierLines(lraw);
+  if (!l) return [];
+
   let rawTokens: string[] = l.split(" ").filter((s) => s != "");
   if (rawTokens.length == 0) return [];
 
