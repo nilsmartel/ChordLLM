@@ -37,6 +37,7 @@ const VALID_TOKENS = getValidTokens();
  * handles some common outliers and filters unwanted lines
  */
 function transformSomeOutlierLines(line: string) {
+  if (line.includes("=")) return null;
   if (line.includes(":")) {
     let ll = line.toLowerCase();
     if (ll.includes("tuning") || ll.includes("key") || ll.includes(",")) {

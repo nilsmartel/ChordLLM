@@ -3,12 +3,6 @@
 
 
 
-How is the weather? (ba ba ba ba)
-So happy together, (ba ba ba ba)
-We're happy together, (ba ba ba ba)
-So happy together, (ba ba ba ba)
-   Happy together, (ba ba ba ba)
-So happy together, (ba ba ba ba)
 C  Am G C   (hang and walk down to Am)
 C  Am G C   (hang and walk down to Am)
         A                        A
@@ -16,10 +10,6 @@ C  Am G C   (hang and walk down to Am)
         D                        D
        F#m
         Bm
-La da da     de de Da
-La da da     de de Da
-da da     de de Da     da DA
-da da     de de Da     da DA
 TUNED HALF STEP DOWN  Eb Ab Db Gb Bb Eb
           D      x00232
           A      x02220
@@ -42,17 +32,8 @@ TUNED HALF STEP DOWN  Eb Ab Db Gb Bb Eb
           Cm     335543
           Bbm    113331
           Ab5    466xxx
-C  = D
-Em = F#m
-Am = Bm
-F  = G
-G  = A
-B7 = C#7
-A7 = B7
-Dm = Em
 Bm7     (x20202)        Dm7     (x57565)
 G       (320003)        Bb      (688766)
-Gadd9   (320005)        Bbadd9  (68x768)
 D       (xx0232)        F       (x8,10,10,10,x)
 Dsus2   (xx0230)        Fsus2   (x,8,10,10,8,x)
 Dmaj7   (xx0222)        Fmaj7   (x,8,10,9,10,8)
@@ -76,35 +57,6 @@ C                 G              F  (Hit E note on D string)(Hit D String) C
 C                G              F (Hit E note on D string)(Hit D String) C
 C                G              F (Hit E note on D string)(Hit D String) C
 | b   Bend
-Da da da da da da da da
-Da da da da da da da da
-D     = E
-A     = B
-A7    = B7
-Asus4 = Bsus
-D7    = E7
-G     = A
-Bm    = C#m
-Em    = F#m
-C     = D
-D     = C
-A     = G
-A7    = G7
-D7    = C7
-Asus4 = Gsus4
-G     = F
-Em    = Dm
-Bm    = Ebm
-C     = Bb
-D     = F
-A     = C
-A7    = C7
-D7    = F7
-Asus4 = Csus4
-G     = Bb
-Em    = Gm
-Bm    = Dm
-C     = Eb
 Bb  x13331
 C   x35553
 Dm  x57765
@@ -114,11 +66,6 @@ C5  x355xx
 C/E 032xxx
 D5  x577xx
 F5  133xxx
-Cmaj7 = F#m  / Dmaj7 / A
-G     = A
-Em    = F#m
-D     = E
-C     = D
 A mulatto
 A mosquito
 A mulatto
@@ -2276,7 +2223,6 @@ G
   Am                                C
   C                                        G D/F# Em C
 Dm  F  Bb  F C
-Dm  F  C (bar chord)
 Dm  F  A  Dm C
 Bb  Bbm  F
             Bb
@@ -2284,7 +2230,6 @@ Bb  Bbm  F
                Bb
          F                   C
    Dm                 F               Bb            F   C
-  Dm             F               C (bar chord)
    Dm                   F               A       Dm   C
      Bb           Bbm           F*
          Bb
@@ -2292,17 +2237,14 @@ Bb  Bbm  F
       F*                    Dm                         Bb
       F          C
    Dm                 F               Bb            F   C
-  Dm             F               C (bar chord)
    Dm                   F               A       Dm   C
      Bb           Bbm           F*
 F                          Dm
                 Bb
-         F              C (bar chord)
     F                           Dm
                     Bb
                F               C           Dm          Bbm
    Dm                 F               Bb            F   C
-  Dm             F               C (bar chord)
    Dm                   F               A       Dm   C
      Bb           Bbm           F  **  Dm
      Bb           Bbm              F
@@ -4547,15 +4489,11 @@ G      Am     F  C  G
     G            Em               C     A7
          Em         A7             D         Bm
          G           A         D
-       Bm     Bbaug          D
-       Bm      Bbaug           D
 |  G  |  %  |  D  |  %  |  Em  |  A  |  D  |  D   |
            Em            A7          D           Bm
   G           Em        C     A7
          Em         A7             D         Bm
          G           A         D
-       Bm     Bbaug             D
-       Bm      Bbaug           D
        Bm
        D
                  Bm
@@ -4944,7 +4882,6 @@ Dm         G
        Dm   G      C   Am
      Dm       G        C
   Dm     G         C
-[Coda] Dm Am Dm G
 Am  Dsus2  Fmaj7  G
 Am              Dsus2
 Fmaj7                   G
@@ -5438,12 +5375,6 @@ F#m        E             A
         D             A
         E             A
         E                  A
-A   = G
-F#m = Em
-E   = D
-D   = C
-G   = F
-E7  = D7
 D                Am    Am7
                  C            Em      Em7        D
 D                    Am  Am7
@@ -5505,7 +5436,6 @@ D                  Em                 G
 Em             A                       Em
           D   G
 D Em G A
-        Da da da da
 D Em G A
      Em                          G
 D          A            Em
@@ -6589,12 +6519,6 @@ C         G                F     C
 F         C      D7   G
             C          G          F   C
     F                 G         C
-C  = A
-G  = E
-F  = D
-D7 = B7
-G7 = E7
-Am = F#m
 G C G C Cm G G/F E
           Am           D7
         G        E
@@ -7036,25 +6960,21 @@ Dm          x5x06x (Dmadd4)
 Gm/Bb       x1x03x
 G Am7 G/B G*
 G         Am7            G/B     G*
-C          C#dim   D        D#(b5)   Em   Ebaug
 D    Dbdim  C    Cm
 G/B            A7              C/D        G
 C G/B A7   C/D   G
 G         Am7            G/B     G*
-C          C#dim   D       D#(b5)   Em   Ebaug
 D    Dbdim  C    Cm
 G/B            A7              C/D          G
 F  Em  Dm  C  Gm/Bb  C
 F  Em  Dm  C  Gm/Bb  A7
          C/D                    G Am7 G/B
-G*      C C#dim D D#(b5) Em   Ebaug
 D Dbdim C   Cm   G/B   A7   C/D   G
 F  Em  Dm  C  Gm/Bb   C
 F  Em  Dm  C  Gm/Bb   A7
          C/D                    G Am7 G/B
 G Am7 G/B C G/B A7 C/D
 G         Am7            G/B     G*
-C          C#dim   D        D#(b5)   Em   Ebaug
 D    Dbdim  C   Cm
 G/B            A7              C/D        G
 C        G/B  A7               C/D        G
@@ -7873,7 +7793,6 @@ Bm               C       Em
 C
 C                               G
                              F        Em
-                         C              Ebaug
                   Em
 (Em) G  Em  G  Bm  C
 Em             G
@@ -7897,7 +7816,6 @@ Bm          C      Em
 C
 C                               G
                              F        Em
-                         C              Ebaug
                   Em
 (Em)  G        Em   G        Bm   C
  Em   G        Em   G        Bm   C        Em
@@ -7908,7 +7826,6 @@ C                               G
 C
 C                               G
                              F        Em
-                         C              Ebaug
                   Em
 (Em)  G        Em   G        Bm   C
         Em   G        Em   G        Bm   C        Em
@@ -10266,14 +10183,6 @@ Dm     C             Bb        C
 Dm    C       Bb        C
         Dm         C
        Bb            F  C   F
-Bm = Am
-A  = G
-G  = F
-D  = C
-Dm = Cm
-C  = Bb
-Bb = Ab
-F  = Eb
 G D C D 2x
 G              D
   C          G    D
@@ -10500,14 +10409,6 @@ G        Em       C
 G        Em       C
 G        Em       C
 G        Em       C
-G  = E
-Em = C#m
-C  = A
-D  = B
-A7 = F#7
-A  = F#
-Eb = C
-F  = D
 C
 Am7
 G                                          Fmaj7
@@ -14051,18 +13952,6 @@ D        G
 E        Am             D7
 D        G
 G  D  Em   C  G
-G  = A
-D  = E
-Em = F#m
-C  = D
-Bm = C#m
-E  = F#
-E7 = F#7
-Am = Bm
-D7 = E7
-Bb = C
-F  = G
-Gm = Am
 G  D  C  D   x2
 G        D        Cadd9        D           G      D   Cadd9   D
 G         D      Cadd9          D           G      D   Cadd9   D
@@ -14294,7 +14183,6 @@ C               CM7  F
 C                 CM7   F
 C              CM7  F
 F         Am         Dm   F
-G       C       G      (C = x32013)
 F         G         C     CM7 E E7
 F         G              C CM7 E E7
 F            G          C     CM7 E E7
@@ -14304,7 +14192,6 @@ C              CM7  F
 C                   CM7   F
 C               CM7  F
 F         Am         Dm   F
-G       C        G     (C = x32013)
 F         G         C     CM7 E E7
 F         G              C CM7 E E7
 F            G          C     CM7 E E7
@@ -17238,12 +17125,6 @@ C      Am         G          F          C
 C                G              F C Dm C
 C      Am         G          F          C
 C                G              F C Dm C   F Em Dm C
-C  = A
-G  = E
-Am = F#m
-F  = D
-Dm = Bm
-Em = C#m
 G Gmaj7 Cmaj7 Cm
 G
 Gmaj7
@@ -18542,7 +18423,6 @@ A
                D                    A
                       E       A
                       E       A
-| Bbaug     | D7   Eb   | Ebm/Gb F7   | Bb        |
 Gm               Bb
        F                 Ab
             Eb                      Bb
@@ -18586,8 +18466,6 @@ Eb                            F
               Gb7
 F            Bb
 G7               Gb7 N.C.
-F          Bbaug
-|(Bbaug)    | D7   Eb   | Ebm/Gb F7   | Bb    Bb
              Cm  Gm7/C
            Cm  Gm7/C
              Cm     Gm7/C
@@ -18600,7 +18478,6 @@ F          Bbaug
 F          Am            Dm     Bb C7
     F             Am                Bb  F#dim7
 Gm7        C7/G       Bbm6   Bbm6/Db   Edim7  Gdim7
-F           Ebadd9/G      Ab6        Bb       Cm7add4
        Fm   Gm7   Fm   Gm7/F   Fm   Gm7/C
                 Cm  Gm7/C
                Cm  Gm7/C
@@ -18616,12 +18493,10 @@ F           Ebadd9/G      Ab6        Bb       Cm7add4
 F          Am            Dm     Bb C7
     F             Am                Bb  F#dim7
 Gm7        C7/G       Bbm6   Bbm6/Db   Edim7  Gdim7
-F           Ebadd9/G      Ab6        Bb       Cm7add4
        F
 F          Am            Dm     Bb C7
     F             Am                Bb  F#dim7
 Gm7        C7/G       Bbm6   Bbm6/Db   Edim7  Gdim7
-F           Ebadd9/G      Ab6        Bb       Cm7add4
     G         D           Am             C
   G                  D           Am   C
         G             D             Am
@@ -19008,24 +18883,16 @@ C       Cadd9                 B7
        Bm        Em
 C         Cadd9 C            Cadd9
 C        G  ***
-Db Dbadd9 C7  Cm Fm  Db Dbadd9 Db Dbadd9 Db Ab  ***
 Db6    Db       Db6      Db        Db6          Db
       Cm                           F  F7
         Db                 Db6             Bbm
               Db6             Eb
-Db      Dbadd9                C7
        Cm        Fm
-Db        Dbadd9 Db           Dbadd9
 Abmaj7
-Db        Dbadd9 Db           Dbadd9
 Db       Ab
-Dbadd9      Db
 Ab
-Dbadd9      Db
 Ab
-Dbadd9      Db
 Ab
-Dbadd9      Db
 Ab
 C Cadd9 B7  Bm Em  C Cadd9 C Cadd9 C G
 C6     C        C6       C         C6           C
@@ -19985,7 +19852,6 @@ D                                Am
 G                                 Gm
 D                         Am
 G                  Gm
-Bm                    Bbaug
        D                     E
        G
        D
@@ -19994,7 +19860,6 @@ D       Am                   G
 Gm                   D
 Am                             G
         Gm
-     Bm                   Bbaug
     Am                 G
     D          Am                  G
     Gm               D
@@ -20002,7 +19867,6 @@ D                    Am
 G                      Gm
 D                      Am
 G                    Gm
-Bm                 Bbaug
        D                     E
        G
        D
@@ -21203,7 +21067,6 @@ D          D7           G
 C         A7       D   D7
 G   G/F   C/E   Cm/Eb
 G        D7          G
-Bbadd9/D   Gm7add11   F   Eb
 Bbsus2                             Gm7
 F                                  Eb
 Bbsus2                                Gm7
@@ -21363,7 +21226,6 @@ D G  C   G D       Em    D  G
       Em    D    G
       Em    D    G
 goes ""Oh I've..."" (Db Eb F C Dm F Bb C)
-F C/E Dm Dm/C Bb Bb/C C F (Hold last F for a whole bar)
 Gm                      C
 F                     Bb
  Eb                       C
@@ -22309,13 +22171,6 @@ G
 Em
 F#
 Bm F# A E G D Em F# 4x
-Bm  = Am
-F#  = E
-A   = G
-E   = D
-G   = F
-D   = C
-Em  = Dm
 Dm                         Gm
 A7                             Dm
                                Gm
@@ -22819,11 +22674,6 @@ G                      Em       G
                    Am             G    C
                    Am             G   C
 G
-G  = A
-Em = F#m
-C  = D
-Am = Bm
-D  = E
 C                      Em
                  Am
                        F
@@ -22893,7 +22743,6 @@ D
 G
 D
 Em
-La da la da
 C                        G N.C.
   G                              D
                                Em
@@ -23891,12 +23740,6 @@ D                                       C         G   D
   Dm                                                Em   A
 D                              C         G   D
 D                                C    G    D
-D  = E
-C  = D
-G  = A
-Dm = Em
-Em = F#m
-A  = B
 | D   | D   | D7  | D7  |
 D
   Cadd9
@@ -24369,14 +24212,6 @@ G G         D
                  Em  C  G
 G G         D
              Em C G  D
-Em = Gm
-D  = F
-C  = Eb
-B7 = D7
-F# = A
-B  = D
-G  = Bb
-Am = Cm
 C Em Fmaj7
 C Em Fmaj7
           C      Em         Fmaj7
@@ -27872,10 +27707,8 @@ E
         E                           A
              B
       E
-Da da da (da da da) Da da da (da da da)
       A                B                   E
       E
-Da da da (da da da) Da da da (da da da)
       A                B                   E
          E
           A                B              E
@@ -27891,16 +27724,12 @@ Da da da (da da da) Da da da (da da da)
         E                           A
              B
       E
-Da da da (da da da) Da da da (da da da)
       A                B                   E
       E
-Da da da (da da da) Da da da (da da da)
       A                B                   E
       E
-Da da da (da da da) Da da da (da da da)
       A                B                   E
       E
-Da da da (da da da) Da da da (da da da)
       A                B                   E
     E
      A            B
@@ -30594,7 +30423,6 @@ F              FM7   C              G
  Am 	x02210
  C  	x32010
     B    B    B     B      B    B     B    B     B
-    D          DM7 A  Bm7 (with A bass)
    Em        A     G (variation)
 G
 G
@@ -32589,7 +32417,6 @@ Bbm       x13321
 Db7       x46464
 Eb        665x4x
 Gm7       353333
-Gbaug     xx4332
 Cm7       x35343
 Ebm7      x68676
 F       Am                          Cm/Eb
@@ -32604,13 +32431,10 @@ Ab       Eaug                              Fm
 Db           Aaug                           Bbm
              Db7
 Bb         Eb
-Gm7       Gbaug                          F
 Fm                      Cm7
 Ebm7                    Bb
 Eb
-Gm         Gbaug
 F  Fm                                    Cm7
-Ebm7               Gm7       Gbaug   Bb/F   C/E
 F   Gbdim Gm  Ddim Am Bb  Bbm
 F       Am                          Cm/Eb
            D7
@@ -32624,13 +32448,10 @@ Ab       Eaug                              Fm
 Db           Aaug                           Bbm
              Db7
 Bb         Eb
-Gm7       Gbaug                          F
 Fm                      Cm7
 Ebm7                    Bb
 Eb
-Gm         Gbaug
 F  Fm                                    Cm7
-Ebm7               Gm7       Gbaug   Bb/F   C/E
    E            A
 E   A   E   A
 E                           A
@@ -33220,9 +33041,7 @@ D
          G
      A
 D
-Um ba ba bay
 A
-Um ba ba bay
 G
 A
            G
@@ -33244,7 +33063,6 @@ D
        A
 G
        A
-Dee da dee da dee da dee da
          G
           A
 G
@@ -34995,12 +34813,6 @@ C        F              G
     Am    E7       G        F           C
 Am     E7       G          F            C     Dm C
 Em
-E7 = B7
-G  = D
-F  = C
-Dm = Am
-Am = Em
-C  = G
 Am7    x02213
 Gadd11 32001x
 C  G  Am  Am7 x4
@@ -35399,7 +35211,6 @@ D D D D
  G                                                           D
  G                              A                           Em
                                 A                    D
-    D           Dmaj7 A  Bm7 (with A bass)
     D
  C
  C
@@ -36318,11 +36129,6 @@ E              F#m   A
             A            E
 F#m      A
               E       G#m    A
-E   = D
-F#m = Em
-A   = G
-G#m = F#m
-B7  = A7
 G   Gsus
            G             C/G
          G                  D/F#      G
@@ -37998,9 +37804,7 @@ G        Fsus4 F         Fsus4  F   C
 Am     G  E7
      G     Fsus4 F           F  Fsus4  F  Gsus4  C
 Am         G      C          F
-Da da da n da da, Da da da n da da
 Am         G        F                x2
-Da da da n da da da da
 Am            G
 C                        F
 Am        G            F
@@ -38023,9 +37827,7 @@ C                       G
       C
 G                   Am    G F
 Am         G      C          F
-Da da da n da da, Da da da n da da
 Am         G        F
-Da da da n da da da da
 Am              G
 C              F
 Am        G           F
@@ -41042,12 +40844,6 @@ F     C                D
 G  Bb      C
           G   Bb   C
 G   Bb   C   G  . . . .
-G  = F
-D  = C
-Em = Dm
-F  = Eb
-C  = Bb
-Bb = Ab
 A                     Amaj7
 D                            A
 A                           Amaj7
@@ -41745,7 +41541,6 @@ Gm            C                        Dm
 Gm               C                                   F
 Gm        C                             F         F/E     Dm7
   Gm                A7
-A rush, a glance, a touch, a dance
   Bb                 C                    A7
             Dm                Dm7
   Bb                      C                    Dm
@@ -43065,14 +42860,6 @@ A       B         E
 C#m     E
     C#m
        E
-E   = D
-C#m = Bm
-A   = G
-B   = A
-E   = C
-C#m = Am
-A   = F
-B   = G
 C G Am F
            C
            G
@@ -43624,10 +43411,6 @@ B
                   E
            B
                     E
-E = D
-D = C
-A = G
-B = A
      G             Em         C        G
       G            Em      C              D
       G            Em             C               G
@@ -47629,7 +47412,6 @@ A
 D                   Em                G
       Gm                      D    A   Bm   G
 D   A   Bm   G
-Intro In this order = Bbm7  Bbmmaj9  Bbm7/Db  Db9  Gdim  Gbmaj7
 Dbmaj7           Bbm7
 Dbmaj7         Bbm7
 Dbmaj7                  Db
@@ -47674,11 +47456,8 @@ G   G   G   G
                 E              Em
               D
 Em                A
-Daa da daa da Daa da da da da
 D                 Bm
-Daa da daa da Daa da da da da
 Em                A
-Daa da daa da Daa da da da da
 D           Bm
            Em                A7
            F#m7              Bm7
@@ -47695,7 +47474,6 @@ D           Bm
                 G              Gm
               F
 Em
-Daa da daa da Daa da da da da
 Bm7           Bm
            Em                A7
            F#m7              Bm7
@@ -50542,11 +50320,6 @@ C  G  Am  Em  F  C  F  G   x22
 C  C C C G G Am
 Am Am Am Em Em F  C  F  G  x4
 C  G  Am  Em  F  C  F  G   x3
-D   = A
-A   = E
-Bm  = F#m
-F#m = C#m
-G   = D
  C        G             Am                 Em
 F                C            G
 C          G           Am                 Em
@@ -51191,28 +50964,6 @@ G7             C            Cm
            G       B7   Em
   Am        D7          G
 G7  C Cm  G
-G  = F
-G7 = F7
-C  = Bb
-Cm = Bbm
-Em = Dm
-A7 = G7
-D7 = C7
-D  = C
-Bm = Am
-Am = Gm
-B7 = A7
-G  = D
-G7 = D7
-C  = G
-Cm = Gm
-Em = Bm
-A7 = E7
-D7 = A7
-D  = A
-Bm = F#m
-Am = Em
-B7 = F#7
 | G   D   | C       | x4
 G       D                   Am7
 G          D         C
@@ -51851,18 +51602,6 @@ F     G     C
 F     G     C
 F     G     C
 F     G     C
-F  = D
-G  = E
-Em = C#m
-Dm = Bm
-C  = A
-Am = F#m
-F  = C
-G  = D
-Em = Bm
-Dm = Am
-C  = G
-Am = Em
 G           C     G              C
 G              C      D                  G
                C             G              C
@@ -53464,7 +53203,6 @@ C
                               F
           D7
 N.C.                    C     G   Am  F
-Ah, ba ba dum ba ba dum eyyy...
 C  G   Em  D
 C                 G
                    Em
@@ -54251,14 +53989,6 @@ D          C            G
 D      C       G
 D          C              G
 D  C  G
-D = C
-C = Bb
-G = F
-F = Eb
-D = B
-C = A
-G = E
-F = D
 C
                       Am    Em
                      F
@@ -54938,11 +54668,8 @@ C     B7          Bb7        A7       A7b9
 F                       Fm
 C              Ab7   G7  C
 Gbdim7               Ab7 G7
-Da    da da da...
 C     Gbdim7         Ab7 G7
-Da    da da da...
 C     Gbdim7         Ab7 G7
-Da    da da da...
 C     Gbdim7         Ab7 G7
 C     Gbdim7         Ab7 G7
 Bm
@@ -55131,14 +54858,6 @@ C           B7
        Em      B7   Em      E
 C           B7           E
 E   Am C   D  C  B7 ......... E
-E  = D
-Am = Gm
-C  = Bb
-D  = C
-B7 = A7
-Em = Dm
-G7 = F7
-B  = A
 C Am Em F    x2
   C         Am         Em      F
    C           Am         Em          F
@@ -55552,15 +55271,6 @@ G            Bm               C             G
 G                   Bm    C            G
 G        Bm    C             G
 G        Bm    C            G
-G  = F
-Bm = Am
-C  = Bb
-G  = E
-Bm = G#m
-C  = A
-G  = D
-Bm = F#m
-C  = G
     Am       Dm
 Am             E
      Am          Dm
@@ -56954,7 +56664,6 @@ Am                       F
               F  C/E  G            C
 F  C   Am  G   F  C  G
 E   Bm7   Dsus2   A   x2
-    E         Bm7   Dsus2   A         (Dsus2 = Dsus2/E)
               E      Bm7  Dsus2 A         E  Bm7  Dsus2  A
           E           Bm7            Dsus2       A             E     Bm7  Dsus2  A
               E        Bm7   Dsus2    A    E         Bm7  Dsus2  A
@@ -57188,7 +56897,6 @@ C       F/C
         C            C/B       Am    C/G    F           C/E        D7    G
          C            Em/B        Am      C/G           F        G11           C
 Am       Am/G      D7/F#      F  Am      Am/G          D7/F#     D7   G   G/F
-Da da da     de de Da               dada          dede da          da da
 C/E  G7/D
 C         Em/B            Am        C/G  F         C/E    D7    G
             C          Em/B       Am     C/G     F             G11       C
@@ -57200,7 +56908,6 @@ C  F/C  Cmaj7  G11
 F/C         C         Em/B         Am        C/G      F          C/E          D7    G
           C           Em/B        Am      C/G  F            G11         C
 Am       Am/G      D7/F#      F  Am      Am/G          D7/F#     D7   G   G/F  G
-Da da da     de de Da               dada          dede da          da da
     C         Em/B        Am     C/G   F          C/E        D7   G
           C           Em/B        Am          C/G      F        G11         C
 C  Em/B  Am  C/G  F  G11
@@ -57221,7 +56928,6 @@ G            C       C/B        Am         C/G      F            G11       C
 C F/C Cmaj7 G11         C           C/B      Am     C/G     F          C/E    D7
         C           C/B        Am      C/G           F        G11          C
 Am       Am/G      D7/F#      F   Am      Am/G          D7/F#     D7    G   G/F  C/E  G/D
-Da da da     de de Da               dada          dede da          da da
 C/E  G7/D   C         C/B             Am        C/G  F         C/E    D7    G
             C          C/B        Am     C/G     F             G11       C
 C  C/B  Am  C/G  F  G11
@@ -58860,11 +58566,8 @@ DM7                C# C# C#
   Em Emadd9 Em   C   Cadd9 G    Gsus4
   Em   Emadd9 Em   C     Cadd9 C    G        Gsus4 G G      Gsus4 G
 Em
-La da da da da
 C
-La da da da da
 G Gsus4 G
-Da da da
        Em      C                       G Gsus4 G
        Em   C                      G  Gsus4 G
        Em   C                G Gsus4 G
@@ -61353,15 +61056,6 @@ D                                   G
                                  G
               A               D
                A               D
-D = E
-A = B
-G = A
-D = F
-A = C
-G = Bb
-D = C
-A = G
-G = F
 G     Bm       C    D
 G              Bm      C  D
 G       Bm       C     D         G          Bm         C  D
@@ -61919,10 +61613,6 @@ A A     E   E  E \ A \ D   A A     E   E  E \ A \ D
 A A     E   E  E \ A \ D
         E       A        E       A        E      A
         E   E
-E  = D
-A  = G
-D  = C
-B7 = A7
 | Bm   | Bm   | Bm   | Bm   |
 Bm         A                     G                 Bm
 A                G      D     A
@@ -62058,10 +61748,6 @@ A   F#m   D E A   2x
    D          E            A
                                      A
    F#m              D            E               A
-A   = G
-F#m = Em
-D   = C
-E   = D
 G6                      A7       G6   A7
 D7           Am7  D7           G            Am7 G
 Em7                   G7                  C   C/B
@@ -62545,26 +62231,18 @@ C         D        G
 G                                                         Em
                                                            C
 C     D        G
-Da da da da da da
 D                 C                      G           C       G
 G                                                          Em
                                                                           C
 C     D        G
-Da da da da da da
 D                C                     G          C       G
 G  Em  C D G
 D                 C                      G           C       G
 G                                                                     Em
                                                                  C
 C     D        G
-Da da da da da da
 D                 C                      G           C       G
 C  D  G
-G  = A
-Em = F#m
-Dm = Em
-C  = D
-D  = E
 Fmaj7
   E7                               Am7
         Cmaj7
@@ -65277,7 +64955,6 @@ A glance
   A7
 A touch
   A7
-A dance
 Bbmaj7                 C7
                 C#dim
             Dm
@@ -71149,12 +70826,6 @@ Em                    Am Em              Am      Em     Am Em
             Am                                        B7  C7 B7
               Em      Am Em          Am          Em      Am Em
      G         A7     B7       Em   Am Em
-Em = Dm
-Am = Gm
-B7 = A7
-C7 = Bb
-G  = F
-A7 = G7
 C      [x32033]
 D      [200233]
 Dsus2  [x57755]
@@ -72010,11 +71681,6 @@ G            D            C                   G
 G            D            C                    G
 G            D            C                    G
 G            D            C                    G
-G  = E
-F  = D
-C7 = A7
-D  = B
-C  = A
 C   Am   x2
    C                                  Am
                             C
@@ -73144,7 +72810,6 @@ C                              Dm
                       Bb                C        Dm
                                     Bb
 Dm
-Da da dum, da dum da da da
             Dm
                      Bb                           C
             Dm
@@ -74271,8 +73936,6 @@ A                                        Em
                 A
                               Em
                 G                   D
-G  Dsus4  Cadd9                                                C = x32013
-G  Dsus4  Cadd9                                              Em7 = 022003
   G                   Dsus4           Cadd9
        G                         Dsus4       Cadd9
 G                         Dsus4            Cadd9
@@ -74908,12 +74571,6 @@ D                       A
 A C       G                 D
 Bm | A | G Em | Bm  x6
 Bm | A | G Em | Bm
-Bm = Am
-A  = G
-G  = F
-Em = Dm
-D  = C
-C  = Bb
 C G Am  F C G
    C               G              Am
 F                    C  G
@@ -74955,20 +74612,6 @@ D7                         G   G7
     F                      D7
 C        G            Am          F
 C                G               C
-C  = D
-G  = A
-Am = Bm
-F  = G
-D7 = E7
-G7 = A7
-C7 = D7
-C  = G
-G  = D
-Am = Em
-F  = C
-D7 = A7
-G7 = D7
-C7 = G7
 D           G         D/F#
  Em7                         A   Bbdim
 Bm7       E
@@ -75380,7 +75023,6 @@ G             D   C                G
 C                                G
 G                           C
 G        D   C            G
-La da da da, Lah da da da da
 G                   C
    A                D
    B                Em              C   D  D7  G
@@ -79732,8 +79374,6 @@ Em    Cadd9      Am       D
               G       Cadd9
               G       Cadd9
     Fmaj7  G/F  Em7  Am7   E7
-    Ebmaj7  Abadd9  Abmaj7  Gm7  Fm7  G7sus4  Cmaj7   A7
-    Gbadd9  F7sus4  Gb   Ab   Ab7sus4
     Gbmaj7  Ab7  Fm7   Bbm7  Dbmaj7  Bb7   A
 Fmaj7      G/F
 Em7        Am7
@@ -79746,7 +79386,6 @@ Em7        Am7
               Em7
                   Am7
 Ebmaj7
-                  Abadd9
    Abmaj7 Gm7   Fm7          G7sus4
 N.C.                Fmaj7
                       G/F
@@ -79764,7 +79403,6 @@ Fmaj7
               Em7       E7
             Am7
 Ebmaj7
-                  Abadd9
    Abmaj7 Gm7  Fm7           G7sus4
 N.C.                Fmaj7
                      G/F
@@ -79773,9 +79411,6 @@ N.C.                Fmaj7
          Fmaj7
                                   G7sus4
 N.C.                        Cmaj7   A7
-Abadd9               G7sus4
-Abadd9               G7sus4
-Gbadd9               F7sus4
 Gb Ab Ab7sus4 Ab
 Ab                       Gbmaj7                              Ab/Gb
                   Fm7                                           Bbm7
@@ -80055,7 +79690,6 @@ A     F#m          D            E
   D          E          D        E
   D               E       A (outro)
 A
-   Bb  Eb Eb6  Cm  D7  Gm Gbaug Bb/F Em7b5 Ebmaj7 Ebmmaj13 Ebm7
    Bb
          Eb
           Bb
@@ -80065,7 +79699,6 @@ A
             Bb
          Eb6
 Cm                   D7
-           Gm          Gbaug  Bb/F       Em7b5
      Ebmaj7    Ebmmaj13
        Bb       D7
         Ebmaj7      Ebm
@@ -80079,7 +79712,6 @@ Cm                   D7
   Bb
          Eb6
 Cm                   D7
-           Gm          Gbaug  Bb/F       Em7b5
      Ebmaj7    Ebmmaj13
        Bb       D7
         Ebmaj7      Ebmmaj13
@@ -80087,7 +79719,6 @@ Cm                   D7
         Ebmaj7    Ebmmaj13
        Bb       D7
          Ebmaj7        Ebmmaj13
-       Bb            D7     Gm  Gbaug  Bb/F  Em7b5  Eb
 Ebm7                  Bb
 C#m  E  F#m  G#m
 E
@@ -80153,11 +79784,6 @@ C          G                   Am   G
            C        G               Am           G
         C            G        Am    G
     C            G        Am
-C  = D
-G  = A
-Am = Bm
-D7 = E7
-Em = F#m
    Em   C   G   D   D/F#  G/B  Bsus4
 Em C G D
 Em C G D
@@ -82154,16 +81780,6 @@ G                 Bm            C               E7
       A             C#m            D    (A  C#m  D)
 A                 C#m           D     (A  C#m  D)
       A
-A   = G
-F#m = Em
-Bm  = Am
-E7  = D7
-Am  = Gm
-C#m = Bm
-F   = Eb
-G   = F
-C   = Bb
-D   = C
 D   Bm   G   A
 D                              G
 Bm                       G   A
@@ -84115,11 +83731,6 @@ D           E     A D A E
        A      G
 D           E     A D A E
 A D A E  . . . .
-A  = G
-D  = C
-E  = D
-B7 = A7
-G  = F
    G   Em7  Cadd9  D/F#
 G   C   Em D Cadd9
                     G                        Cadd9
@@ -84530,10 +84141,6 @@ Am           C    E   G
 Am           C    E   G
 Am           C    E   G
 Am           C    E   G
-C#m                    A (barre) G (barre) F# F
-C#m                    A (barre) G (barre) F# F
-C#m                 A (barre) G (barre) F# F
-C#m                     A (barre) F G (barre) E
 Am      C  E      G
 Am      C  E      G
 Am      C  E      G
@@ -84910,7 +84517,6 @@ C              Em
      Am               B7           C         C
 C  Em  Cadd4  C
 C  Em  Cadd4  C
-C            Em       Abadd4      C
 C              Em
             D
                            C
@@ -85551,13 +85157,9 @@ C                               D
 G
 C                                D
 G
-La da da da da da
 C        D
-La da da da da da da
 G
-La da da da da da
 C         D          G C D G C D
-La da da da da da da la
 G
           C                        D
 G
@@ -85574,33 +85176,21 @@ C                           D
 G
 C                        D
 G
-La da da da da da
 C        D
-La da da da da da da
 G
-La da da da da da
 C         D          G
-La da da da da da da la
 G
 C                              D
 G
 C                               D
 G
-La da da da da da
 C        D
-La da da da da da da
 G
-La da da da da da
 C         D          G
-La da da da da da da la
 G
-La da da da da da
 C        D
-La da da da da da da
 G
-La da da da da da
 C         D
-La da da da da da da da
 E   B   F#   F#
 E   B   F#   F#
 E              B                      F#
@@ -85946,10 +85536,8 @@ D      Em            G/D
        C                     Dsus
      D              G
 G            G/F             C
-Da da da dat da dat da da da da ya da
       Cm      D     G
              G/F             C
-Da da da dat da dat da da da da ya da
       Cm
     Em
             G                         C         Cm
@@ -85973,16 +85561,12 @@ D7          Em            G/D
        C
      Dsus           D
 G            G/F             C
-Da da da dat da dat da da da da ya da
       Cm      D7    G
              G/F             C
-Da da da dat da dat da da da da ya da
       Cm         D7
 G            G/F             C
-Da da da dat da dat da da da da ya da
       Cm            G
              G/F             C
-Da da da dat da dat da da da da ya da da da da
 Cm      D7    G
    Em       D            G        C
 Em         D              G
@@ -91235,13 +90819,6 @@ A                           D               A
 A    A         E              D   A
 A    A         E              D   A
 A  D  A   A   E D A . . .
-G   = A
-C   = D
-Em  = F#m
-D   = E
-A   = B
-E   = F#
-F#m = Gm
 F#m E A E D
   F#m
     E
@@ -92670,18 +92247,6 @@ D           A        Bm        E
 D             A    Bm      E
         D              A
         D               A
-D     = C
-A     = G
-Bm    = Am
-Dm    = Cm
-E     = D
-F#m   = Em
-Amaj7 = Bm
-G     = F
-Asus4 = Gsus4
-Asus2 = Gsus2
-Dmaj7 = Cmaj7
-Bm G A F# x4 Play barre chords
 Bm          G
 A                       F#
 Bm             G
@@ -96922,11 +96487,8 @@ D
                 E              Gm6
               D
 Em            A7
-Daa da daa da Daa da da da da
 D
-Daa da daa da Daa da da da da
 Em            A7
-Daa da daa da Daa da da da da
 D             B7
           Em                A7
            F#m7              Bm7
@@ -96943,7 +96505,6 @@ D             B7
                 G              Bbm6
               F
 Em            A7
-Daa da daa da Daa da da da da
 D             B7
         Em                A7
            F#m7              Bm7
@@ -97107,16 +96668,6 @@ E                            A            B7              E   E7 E
 A                            A7           B7              E   E7           E
        B7                        A
                            E   E7 A A7 E
-E  = F#
-A  = B
-B7 = C#7
-E7 = F#7
-A7 = B7
-E  = D
-A  = G
-B7 = A7
-E7 = D7
-A7 = G7
 G                    F#
 G                    F#        Bm
           Em
@@ -99255,11 +98806,6 @@ A                       E
 D                        A
             E
             D
-A  = G
-Bm = Am
-D  = C
-G  = F
-E  = D
 Em
 Em
 Em
@@ -100694,9 +100240,6 @@ D  F
     C                         F
            D                                       F
                  C           F   C   F
-C = A
-F = D
-D = B
   Em  Cadd9 Dsus2   Am  Bm  G
 N.C.                       Em
 Em Cadd9 Dsus2 Em 2x
@@ -102421,7 +101964,6 @@ G      A     D
 D                Bm       D           Bm
 G      A     D
 F  Fmaj7  Dm  Bb  F  C
-Dm  Bb  Bbadd9 Bb
 F  Am  Bb  F
 Bb  A7  Dm  Bb
 F         Am
@@ -102967,11 +102509,8 @@ E
 E
 G                                               E         C  D  G  D  G  D  G  D  E
 E                 C
-Da da da da da da da
 C                 E
-Da da da da da da da
 E                 C
-Da da da da da da da
 E
     C                                 D
     E
@@ -102993,11 +102532,8 @@ E
                                          Am  E
 Am
 E
-da da da da da da
 Am
-da da da da da da da da da la da da
 E                       Am
-da da da da da da da da da
 C  Cmaj7 F  x2
 C        Cmaj7      F
 C          Cmaj7  F
@@ -103857,12 +103393,6 @@ D
        Dm         G7          C
        C                  Am           Dm             F
         Dm               F              C
-C  = A
-Am = F#m
-Dm = Bm
-F  = D
-G  = E
-G7 = E7
  G        G7         C          G
     D           D          C              G
     G            G7                 C             G
@@ -107638,14 +107168,6 @@ A         Bm                Em            G
   Bm                     Bm7
        Bm          G
     D         Em             G             D
-D   = C
-G   = F
-A   = G
-F#m = Em
-F#  = E
-Bm  = Am
-Bm7 = Am7
-Em  = Dm
 D Bm  D G  D F#m  G  A
     D                 G        D
                           A                      G
@@ -107691,24 +107213,6 @@ Em                       A           G              Em
        G                           A                      D
 D  A   D  G
 D  A   G G G  A A A  5x
-D   = F
-Bm  = Dm
-G   = Bb
-A   = C
-F#m = Am
-Em  = Gm
-D   = E
-Bm  = C#m
-G   = A
-A   = B
-F#m = G#m
-Em  = F#m
-D   = C
-Bm  = Am
-G   = F
-A   = G
-F#m = Em
-Em  = Dm
 G
 G
                                Em       G
@@ -111561,7 +111065,6 @@ Gm7           C7                         Dm7
 Gm7              C7                                  Fmaj7           Am/E
      Gm7   C7                             F        Am/E   F7/Eb
   Gm7                A7
-A rush, a glance, a touch, a dance
    Bb                 C                    A7
             Dm7
    Bb                       C                   Dm
@@ -114062,7 +113565,6 @@ Gsus4   3555xx
          C
       Bb9             E7
     Am                     Bb6            C7
-  Fmaj9                          Abaug         Gsus4
          C
           C
               Gm            C
@@ -115046,7 +114548,6 @@ C#m
 F#m
 E
 F#m          C#m    D      A
-Ba da ba ba da ba ba da
 F#m          C#m    D      A
 F#m            C#m       D      A
 F#m                 C#m     D       A
@@ -115082,13 +114583,9 @@ F#m
 E
 F#m (srtum)
 F#m          C#m    D    A
-Ba da ba ba da ba ba da  Ba da ba ba ba da ba ba
 F#m          C#m    D    A
-Ba da ba ba da ba ba da  Ba da ba ba ba da ba ba
 F#m          C#m    D    A
-Ba da ba ba da ba ba da  Ba da ba ba ba da ba ba
 F#m          C#m    D    A                       A(short)
-Ba da ba ba da ba ba da  Ba da ba ba ba ba ba ba ba
 F  C  Am   G  x4
 F              C   Am  G  F             C   Am   G
 F       C  Am   G     F     C  Am   G
@@ -119065,25 +118562,6 @@ G            A          D
      Bm                 G               D
 A7        D                   A       Bm         E7
         C         G       A              A7     D
-D   = E
-A   = B
-Bm  = C#m
-G   = A
-F#m = Gm
-C   = D
-E   = F#
-E7  = F#7
-A7  = B7
-D   = F
-A   = C
-Bm  = Dm
-G   = Bb
-F#m = Am
-C   = Eb
-E   = G
-A   = C
-E7  = G7
-A7  = C7
 A9 F#m9 Bm E x2
 A9
 F#m9                 D              C#m
@@ -119797,10 +119275,6 @@ G                              C
 D
   Am
    D                             Am                  C       D
-G  = D
-C  = G
-D  = A
-Am = Em
 You can also play G C Em C
 G C Em D
 G C Em D
@@ -119875,13 +119349,6 @@ C#m A E   G#m  C#m  B  A
          B                            A                 E
        F#m                 G#m                  A
 B                                   A                 E
-E     = D
-G#m   = F#m
-A     = G
-C#m   = Bm
-F#m   = Em
-Esus4 = Dsus4
-B     = A
 C    Am
     C
 Am                                         G   C
@@ -120290,16 +119757,6 @@ A        A7         D            Dm
     A           A7         F#m   Dm
 G           C        D          G           C        D
 G           C        D                      A
-A   = E
-A7  = E7
-D   = A
-D7  = A7
-Dm  = Am
-F#m = C#m
-Bb  = F
-C   = G
-G   = D
-F   = C
 C        Em
 Dm
 C       Em            Dm                 F
@@ -120445,13 +119902,6 @@ A   E    E7            D     E
 A   E    E7            D     E
        E7        A         Asus4 A
 D  A  4x
-A     = G
-Asus4 = Gsus4
-E     = D
-Esus4 = Dsus4
-D     = C
-E7    = D7
-C#m   = Bm
 C
       Em
       Am                         F
@@ -123841,7 +123291,6 @@ Am                               Am/G
                              Fm
        C      Bb F
              C      Bb F
-            D           DM7          D6          DM7     (DM7 = Dmaj7)
            D6           DM7       Em            A
            Em          A          Em         A
            E                  A+5
@@ -125221,7 +124670,6 @@ A                           E
       E
 A                              E
       B
-Da da da da da,
 A               E
 | E – E | E – E | A – A | E – E | B – A | E – E |
          E
@@ -125244,7 +124692,6 @@ A                           E
       E
 A                              E
       B
-Da da da da da,
 A               E
 G  D  F  Bb  Eb  Ab  A
     Am7       F#m7
@@ -125683,16 +125130,6 @@ G  D   G  D
              D    A
              D    A
              D
-D  = F
-G  = Bb
-Em = Gm
-Bm = Dm
-A  = C
-D  = E
-G  = A
-Em = F#m
-Bm = C#m
-A  = B
   C            Em         F  Dm
    C/G            G           C
         C           C7          F  Dm
@@ -125755,7 +125192,6 @@ G               A          D      Dsus4 D
 G               A          D      Dsus4 D
 G               A                   D      Dsus4 D
    C                    Em                   Am                  F
-   C                    Em                   Am                  F                        over bar line
 C Em Am F
 C Em Am F
 C        Em           Am
@@ -126689,11 +126125,6 @@ D  Em   G   D
 D                Em    G             D
 D         Em    G    D
 D   Em  G   D . . .
-A   = G
-D   = C
-G   = F
-Em  = Dm
-F#m = Em
 G Em C D
               G
              Em
@@ -126831,20 +126262,6 @@ F              C        D
 F              C        D
 F              C        D  D
 G D   F Bb   Eb Ab   A   A
-Am  = Gm
-F#m = Em
-G   = F
-A   = G
-D   = C
-E   = D
-E7  = D7
-F   = Eb
-C   = Bb
-B   = A
-Bb  = G#
-Ab  = F#
-Eb  = C#
-Bm  = Am
                         C
                         F
                C
@@ -129856,13 +129273,6 @@ A   Amaj7       F#m                   A
 A              Amaj7
       F#m           A              D
          F        A  A
-A     = G
-Amaj7 = Bm
-F#m   = Em
-D     = C
-E     = D
-Bm    = Am
-F     = Eb
 Am   C
   Am                                                C
   Am                                                    C
@@ -133268,7 +132678,6 @@ Dmaj7
          Dmaj7        E
          C#m7
       F#m
-Mapapasakin ba
      Dmaj7                       E
    C#m7               F#m
    Dmaj7                    E                          C#m7
@@ -133285,7 +132694,6 @@ Dmaj7
          Dmaj7        E
          C#m7
       F#m
-Mapapasakin ba
 Dmaj7  E  C#m7  F#m  x2
 Dmaj7  E  C#m7  F#m
           Dmaj7     E
@@ -133299,7 +132707,6 @@ Dmaj7  E  C#m7  F#m
          Dmaj7        E
          C#m7
       F#m
-Mapapasakin ba
 C       D      Em     C
 C       D      Em     C
 G      D           Dsus D
@@ -134506,16 +133913,6 @@ E
   D                    G           Bm     E
     G                 Bm        E
 E  D E
-E  = F
-D  = Eb
-G  = Ab
-A  = Bb
-Bm = Cm
-E  = D
-D  = C
-G  = F
-A  = G
-Bm = Am
 Amaj7        F#m7         B7
 Bm7
 Amaj7       F#m7          B7
@@ -140838,9 +140235,7 @@ Eb                   Cm
 Ab                   Eb
 Eb                              Cm
 Ab                 Eb
-Eb          Eb      Cm7   Abadd9   Eb
            Eb     Cm7
-           Abadd9     Eb
              Eb
 Cm7       Ab
 Eb         Eb       Cm7
@@ -140863,8 +140258,6 @@ Ab                         Eb
              Cm/Ab                        Cm7/Bb
 Eb                Gm7
     Ab                            Eb
-Eb Cm7 Abadd9 Eb
-Eb Cm7 Abadd9 Eb
 Eb        Cm
 Ab            Eb
                        Eb
@@ -143022,16 +142415,6 @@ D
      G           D
      D                 A
      G           D
-D  = C
-G  = F
-A  = G
-A7 = G7
-Bm = Am
-D  = G
-G  = C
-A  = D
-A7 = D7
-Bm = Em
 G   D   Am
 G   D   C
 G   D   Am
@@ -143566,13 +142949,6 @@ A         C#m
                Em   F#   Bm      Dm  E
 A         C#m
                  Em    F#   Bm      Dm  E
-A   = G
-Dm  = Cm
-Em  = Dm
-E   = D
-F#  = E
-Bm  = Am
-C#m = Bm
     C                  D     Em
     G              C
  C                D       Em
@@ -145897,9 +145273,7 @@ C  G  Am  C  F  G  C  C  F  F
           C           G           Am           C
      F        G             C      C
 Am    C                  D7   D7   Am
-La da da     de de Da
    C            D7  D7          G  G7 G* G7*
-da da     de de Da     da DA
 C         G             Am        C
 F         C       D     G
             C          G          Am     C
@@ -146122,7 +145496,6 @@ E          F#m                C#m          B
 E              F#m                C#m        B
 E F#m    C#m B
             E    F#m   C#m   B
-Da da da da da da da da da da    da da da
 E       F#m
     C#m       B
 E         F#m         C#m B
