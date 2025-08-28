@@ -26,17 +26,29 @@ export enum SymbolType {
   NOISE,
   // [0254x0] xx0232
   ChordTab,
+  // TUNED HALF STEP DOWN
+  Speech,
 }
 
 export function removePunctuation(input: string): string {
   return input.replaceAll(/[!"#$%&'()*+,\-./:;<=>?@[\\\]^_`{|}~]/, "");
 }
 
+const commonWords = new Set("tuned half step down".split(" "));
+
+function recognizeChordTab(input: string): boolean {
+  return false;
+}
+
 export function getSymbolType(token: string): SymbolType {
   // Token cleared of puncuation
-  const cleared = removePunctuation(token);
+  const cleared = removePunctuation(token).toLowerCase();
 
   if (cleared == "") return SymbolType.NOISE;
+
+  if (commonWords.has(cleared)) return SymbolType.Speech;
+
+  if (recognizeChordTab(cleared)) return SymbolType.ChordTab;
   // TODO recognize CHORD_TAB
   return SymbolType.Chord;
 }
