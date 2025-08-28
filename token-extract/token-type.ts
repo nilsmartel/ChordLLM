@@ -28,9 +28,13 @@ export enum SymbolType {
   ChordTab,
 }
 
+export function removePunctuation(input: string): string {
+  return input.replaceAll(/[!"#$%&'()*+,\-./:;<=>?@[\\\]^_`{|}~]/, "");
+}
+
 export function getSymbolType(token: string): SymbolType {
   // Token cleared of puncuation
-  const cleared = token.replaceAll(/[!"#$%&'()*+,\-./:;<=>?@[\\\]^_`{|}~]/, "");
+  const cleared = removePunctuation(token);
 
   if (cleared == "") return SymbolType.NOISE;
   // TODO recognize CHORD_TAB
