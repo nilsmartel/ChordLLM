@@ -34,15 +34,23 @@ export function removePunctuation(input: string): string {
   return input.replaceAll(/[!"#$%&'()*+,\-./:;<=>?@[\\\]^_`{|}~]/, "");
 }
 
-const commonWords = new Set("tuned half step down".split(" "));
-
 function recognizeChordTab(input: string): boolean {
   return false;
 }
 
+// TODO maybe remove these common words before?
+// Reason: we have things like cm7pause in the documents
+
+const commonWords = new Set(
+  "tuned half step down barre riff open single strum walk to low high once bend hold pause".split(
+    " ",
+  ),
+);
+
 export function getSymbolType(token: string): SymbolType {
   // Token cleared of puncuation
   const cleared = removePunctuation(token).toLowerCase();
+  const cleared = removePunctuation(token).toLowerCase().trim();
 
   if (cleared == "") return SymbolType.NOISE;
 
