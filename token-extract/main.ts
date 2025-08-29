@@ -30,5 +30,5 @@ const input = getRawInputLines();
 for (let line of input) {
   let tokens = verifyAndCleanLine(getTokensUnclean(line));
   if (!tokens) continue;
-  console.log(tokens);
+  console.log(tokens.join(" "));
 }
