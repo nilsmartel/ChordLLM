@@ -25,7 +25,7 @@ export enum SymbolType {
   // | , . [] ""
   NOISE,
   // [0254x0] xx0232
-  ChordTab,
+  ChordDesc,
   // TUNED HALF STEP DOWN
   Speech,
   // x2 x4 x3
@@ -59,7 +59,7 @@ export function getSymbolType(token: string): SymbolType {
 
   if (commonWords.has(cleared)) return SymbolType.Speech;
 
-  if (recognizeChordTab(cleared)) return SymbolType.ChordTab;
+  if (recognizeChordTab(cleared)) return SymbolType.ChordDesc;
   if (/x[0-9]{1,2}/.test(cleared)) return SymbolType.Repeat;
 
   return SymbolType.Chord;
