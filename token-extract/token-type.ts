@@ -28,6 +28,8 @@ export enum SymbolType {
   ChordTab,
   // TUNED HALF STEP DOWN
   Speech,
+  // x2 x4 x3
+  Repeat,
 }
 
 export function removePunctuation(input: string): string {
@@ -58,5 +60,7 @@ export function getSymbolType(token: string): SymbolType {
 
   if (recognizeChordTab(cleared)) return SymbolType.ChordTab;
   // TODO recognize CHORD_TAB
+  if (/x[0-9]{1,2}/.test(cleared)) return SymbolType.Repeat;
+
   return SymbolType.Chord;
 }
