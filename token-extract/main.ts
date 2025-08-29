@@ -11,12 +11,11 @@ function verifyAndCleanLine(line: string[]): string[] | null {
     let s = symbols[i];
     // Ignore lines with Descriptions of chords
     if (s == TokenType.ChordDesc) return null;
-    if (s == TokenType.NOISE) continue;
-    if (s == TokenType.Speech) continue;
-
     // Another option would be to just keep the repeat symbol.
     // but I think it would feel odd to get that from a chord completion model.
     if (s == TokenType.Repeat) continue;
+    if (s == TokenType.NOISE) continue;
+    if (s == TokenType.Speech) continue;
 
     let token = line[i];
     newLine.push(token);
