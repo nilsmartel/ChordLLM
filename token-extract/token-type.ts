@@ -36,8 +36,10 @@ export function removePunctuation(input: string): string {
   return input.replaceAll(/[!"#$%&'()*+,\-./:;<=>?@[\\\]^_`{|}~]/, "");
 }
 
+// see token-research/chord-tab-example file to see, what kind of strings this is supposed to catch
 function recognizeChordTab(input: string): boolean {
-  return false;
+  // expect input to be cleared of puncuation and lowercase.
+  return /([0-9x]){6,}/.test(input);
 }
 
 // TODO maybe remove these common words before?
@@ -51,7 +53,6 @@ const commonWords = new Set(
 
 export function getSymbolType(token: string): SymbolType {
   // Token cleared of puncuation
-  const cleared = removePunctuation(token).toLowerCase();
   const cleared = removePunctuation(token).toLowerCase().trim();
 
   if (cleared == "") return SymbolType.NOISE;
@@ -59,7 +60,6 @@ export function getSymbolType(token: string): SymbolType {
   if (commonWords.has(cleared)) return SymbolType.Speech;
 
   if (recognizeChordTab(cleared)) return SymbolType.ChordTab;
-  // TODO recognize CHORD_TAB
   if (/x[0-9]{1,2}/.test(cleared)) return SymbolType.Repeat;
 
   return SymbolType.Chord;
