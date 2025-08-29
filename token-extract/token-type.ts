@@ -23,7 +23,7 @@ export enum TokenType {
   // A C#
   Chord,
   // | , . [] ""
-  NOISE,
+  Noise,
   // [0254x0] xx0232
   ChordDesc,
   // TUNED HALF STEP DOWN
@@ -46,21 +46,28 @@ function recognizeChordTab(input: string): boolean {
 // Reason: we have things like cm7pause in the documents
 
 const commonWords = new Set(
-  "hit note on string each and then play tuned half step down barre riff open single strum walk to low high once bend hold pause".split(
+  "mute until hit note on string each and then play tuned half step down barre riff open single strum walk to low high once bend hold pause".split(
     " ",
   ),
 );
+
+function isRepitition(input: string): boolean {
+  if (/x[0-9]{1,2}/.test(input)) return true;
+  if (/[0-9]{1,2}x/.test(input)) return true;
+  return false;
+}
 
 export function getSymbolType(token: string): TokenType {
   // Token cleared of puncuation
   const cleared = removePunctuation(token).toLowerCase().trim();
 
-  if (cleared == "") return TokenType.NOISE;
+  if (cleared == "") return TokenType.Noise;
 
   if (commonWords.has(cleared)) return TokenType.Speech;
-
   if (recognizeChordTab(cleared)) return TokenType.ChordDesc;
-  if (/x[0-9]{1,2}/.test(cleared)) return TokenType.Repeat;
+  if (isRepitition(cleared)) return TokenType.Repeat;
+  if (cleared.includes("x")) return TokenType.Noise;
+  if (/^\d+$/.test(cleared)) return TokenType.Noise;
 
   return TokenType.Chord;
 }
