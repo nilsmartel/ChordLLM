@@ -1,4 +1,8 @@
-import { getRawInputLines, getTokensUnclean } from "./extract-tokens";
+import {
+  getRawInputLines,
+  getTokensUnclean,
+  transformToken,
+} from "./extract-tokens";
 import { TokenType, getSymbolType } from "./token-type";
 
 // TODO end of song tokens
@@ -30,5 +34,6 @@ const input = getRawInputLines();
 for (let line of input) {
   let tokens = verifyAndCleanLine(getTokensUnclean(line));
   if (!tokens) continue;
+  tokens = tokens.map(transformToken);
   console.log(tokens.join(" "));
 }
