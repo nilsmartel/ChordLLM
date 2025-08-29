@@ -17,6 +17,8 @@ export function transformToken(token: string) {
     .replaceAll("(", "")
     .replaceAll(")", "")
     .replaceAll("|", "")
+    .replaceAll("+", "")
+    .replaceAll("*", "")
     .toLowerCase();
 }
 
