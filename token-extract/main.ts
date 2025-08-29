@@ -25,7 +25,7 @@ function verifyAndCleanLine(line: string[]): string[] | null {
     newLine.push(token);
   }
 
-  if (line.length == 0) return null;
+  if (newLine.length == 0) return null;
   return newLine;
 }
 
@@ -33,7 +33,8 @@ const input = getRawInputLines();
 
 for (let line of input) {
   let tokens = verifyAndCleanLine(getTokensUnclean(line));
-  if (!tokens) continue;
+  if (tokens == null) continue;
+
   tokens = tokens.map(transformToken);
   console.log(tokens.join(" "));
 }
