@@ -11,6 +11,13 @@ export function getRawInputLines(): Array<string> {
   return lines;
 }
 
+/**
+ * transforms a token intp a more simplified and unified representation.
+ * e.g.
+ * " (Em*)"
+ * becomes
+ * "em"
+ */
 export function transformToken(token: string) {
   return token
     .trim()
