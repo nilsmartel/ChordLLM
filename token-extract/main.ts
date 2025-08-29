@@ -1,5 +1,5 @@
 import { getRawInputLines, getTokensUnclean } from "./extract-tokens";
-import { SymbolType, getSymbolType } from "./token-type";
+import { TokenType, getSymbolType } from "./token-type";
 
 // TODO end of song tokens
 
@@ -10,13 +10,13 @@ function verifyAndCleanLine(line: string[]): string[] | null {
   for (let i in line) {
     let s = symbols[i];
     // Ignore lines with Descriptions of chords
-    if (s == SymbolType.ChordDesc) return null;
-    if (s == SymbolType.NOISE) continue;
-    if (s == SymbolType.Speech) continue;
+    if (s == TokenType.ChordDesc) return null;
+    if (s == TokenType.NOISE) continue;
+    if (s == TokenType.Speech) continue;
 
     // Another option would be to just keep the repeat symbol.
     // but I think it would feel odd to get that from a chord completion model.
-    if (s == SymbolType.Repeat) continue;
+    if (s == TokenType.Repeat) continue;
 
     let token = line[i];
     newLine.push(token);

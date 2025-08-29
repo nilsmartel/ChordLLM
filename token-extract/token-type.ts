@@ -19,7 +19,7 @@
  * We just filter out the mark and go on
  */
 
-export enum SymbolType {
+export enum TokenType {
   // A C#
   Chord,
   // | , . [] ""
@@ -51,16 +51,16 @@ const commonWords = new Set(
   ),
 );
 
-export function getSymbolType(token: string): SymbolType {
+export function getSymbolType(token: string): TokenType {
   // Token cleared of puncuation
   const cleared = removePunctuation(token).toLowerCase().trim();
 
-  if (cleared == "") return SymbolType.NOISE;
+  if (cleared == "") return TokenType.NOISE;
 
-  if (commonWords.has(cleared)) return SymbolType.Speech;
+  if (commonWords.has(cleared)) return TokenType.Speech;
 
-  if (recognizeChordTab(cleared)) return SymbolType.ChordDesc;
-  if (/x[0-9]{1,2}/.test(cleared)) return SymbolType.Repeat;
+  if (recognizeChordTab(cleared)) return TokenType.ChordDesc;
+  if (/x[0-9]{1,2}/.test(cleared)) return TokenType.Repeat;
 
-  return SymbolType.Chord;
+  return TokenType.Chord;
 }
