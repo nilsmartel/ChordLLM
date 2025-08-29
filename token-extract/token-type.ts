@@ -33,7 +33,7 @@ export enum SymbolType {
 }
 
 export function removePunctuation(input: string): string {
-  return input.replaceAll(/[!"#$%&'()*+,\-./:;<=>?@[\\\]^_`{|}~]/, "");
+  return input.replaceAll(/[!"#$%&'()*+,\-./:;<=>?@[\\\]^_`{|}~]/g, "");
 }
 
 // see token-research/chord-tab-example file to see, what kind of strings this is supposed to catch
@@ -46,7 +46,7 @@ function recognizeChordTab(input: string): boolean {
 // Reason: we have things like cm7pause in the documents
 
 const commonWords = new Set(
-  "tuned half step down barre riff open single strum walk to low high once bend hold pause".split(
+  "hit note on string each and then play tuned half step down barre riff open single strum walk to low high once bend hold pause".split(
     " ",
   ),
 );

@@ -1,6 +1,6 @@
 import fs from "fs";
 
-export function getRawInputLines(): Array<string> {
+export function getRawInputLines(): string[] {
   const filepath =
     "./ultimate-guitar/ultimate-guitar-popular-tabs/top_songs_full.csv";
 
