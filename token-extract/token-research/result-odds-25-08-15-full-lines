@@ -1,3 +1,13 @@
+
+Falling about
+Falling about
+About a million reasons
+About a million reasons
+About a million reasons
+About a million reasons
+   G/F# [200033]
+  Cadd9 [032033]
+     G6 [020033]
 C  Am G C   (hang and walk down to Am)
 C  Am G C   (hang and walk down to Am)
         A                        A
@@ -20,6 +30,11 @@ B      x2444x
 D      xx0232
 G#m7   464444
 Aadd9  577600
+D     xx023x     G  3x00xx      D       xx0232     Bm      x20233
+D/F#  2x023x     A  x022xx      D/F#    2x0232     G       3x0033
+G     3200xx     D  xx023x      G       3x0033     D       xx0232
+Bm    x202xx                    Bm      x20233     A7sus4  x02033
+A     x022xx                    A7sus4  x02033
 TUNED HALF STEP DOWN  Eb Ab Db Gb Bb Eb
           D      x00232
           A      x02220
@@ -42,6 +57,24 @@ TUNED HALF STEP DOWN  Eb Ab Db Gb Bb Eb
           Cm     335543
           Bbm    113331
           Ab5    466xxx
+Em7     (022033)
+G       (320033)
+Dsus4   (xx0233)
+A7sus4  (x02033)
+Cadd9   (x32033)
+A7sus4 [x02233]
+Bm7       x20202
+G         320003
+D         xx0232
+Dsus2     xx0230
+A/D       xx0220
+D6/9      xx0200
+A/E       002220
+Asus4     xx2230
+A         xx2220
+Dmaj7     xx0222
+Dsus2/C#  x40230
+
 Bm7     (x20202)        Dm7     (x57565)
 G       (320003)        Bb      (688766)
 D       (xx0232)        F       (x8,10,10,10,x)
@@ -67,15 +100,6 @@ C                 G              F  (Hit E note on D string)(Hit D String) C
 C                G              F (Hit E note on D string)(Hit D String) C
 C                G              F (Hit E note on D string)(Hit D String) C
 | b   Bend
-Bb  x13331
-C   x35553
-Dm  x57765
-F   133211
-Bb5 x133xx
-C5  x355xx
-C/E 032xxx
-D5  x577xx
-F5  133xxx
 A mulatto
 A mosquito
 A mulatto
@@ -89,23 +113,6 @@ A denial, a denial
 A denial
 | b   Bend
 D ........
-Em7     (022033)
-G       (320033)
-Dsus4   (xx0233)
-A7sus4  (x02033)
-Cadd9   (x32033)
-A7sus4 [x02233]
-Bm7       x20202
-G         320003
-D         xx0232
-Dsus2     xx0230
-A/D       xx0220
-D6/9      xx0200
-A/E       002220
-Asus4     xx2230
-A         xx2220
-Dmaj7     xx0222
-Dsus2/C#  x40230
  G C in (D D UDUDUDUD DD) each and then
  F (D D) C (D D) G (D D UDUD)
 then play G (Barre) C  F  C  G  x2
@@ -698,11 +705,6 @@ A                         A7
 G                         D
 D
 D
-D     xx023x     G  3x00xx      D       xx0232     Bm      x20233
-D/F#  2x023x     A  x022xx      D/F#    2x0232     G       3x0033
-G     3200xx     D  xx023x      G       3x0033     D       xx0232
-Bm    x202xx                    Bm      x20233     A7sus4  x02033
-A     x022xx                    A7sus4  x02033
 D
 D                D/F#  G                  Bm   A
 D               D/F# G                    Bm         A
@@ -3506,9 +3508,6 @@ Bb           C             D
 Bb           C             D
 Bb           C             D
 Bb           C             D
-   G/F# [200033]
-  Cadd9 [032033]
-     G6 [020033]
 G   D/F#* Em7   Dsus4* Cadd9   Em7* G  D
 Cadd9
            G
@@ -9266,13 +9265,11 @@ C   Am   F   G
        F                           Fsus2
 G
 G
-About a million reasons
 C
 Am
            F                           Fsus2
 G
 G
-About a million reasons
 F     C       Am
                   G
 F          C      Am
@@ -9284,13 +9281,11 @@ Am
               F                           Fsus2
 G
 G
-About a million reasons
     C
      Am
               F                           Fsus2
 G
 G
-About a million reasons
 F     C       Am
                   G
 F          C      Am
@@ -28126,12 +28121,10 @@ E C#m F#m B
               G#m  F#m
 E C#m B F#m B
 E          C#m
-Falling about
     F#m                        B
               E             C#m
 F#m                       B
 E          C#m
-Falling about
     F#m                        B
               E             C#m
 F#m                      B
