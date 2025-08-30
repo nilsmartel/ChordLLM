@@ -36,5 +36,5 @@ for (let line of input) {
   if (tokens == null) continue;
 
   tokens = tokens.map(transformToken);
-  console.log(tokens.join(" "));
+  for (let t of tokens) console.log(t);
 }

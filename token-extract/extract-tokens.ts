@@ -19,14 +19,24 @@ export function getRawInputLines(): string[] {
  * "em"
  */
 export function transformToken(token: string) {
+  if (token.startsWith("/")) token = token.substring(1);
   return token
     .trim()
+    .toLowerCase()
+    .replaceAll("[", "")
+    .replaceAll("]", "")
     .replaceAll("(", "")
     .replaceAll(")", "")
     .replaceAll("|", "")
-    .replaceAll("+", "")
+    .replaceAll("!", "")
     .replaceAll("*", "")
-    .toLowerCase();
+    .replaceAll("+", "")
+    .replaceAll(",", "")
+    .replaceAll(".", "")
+    .replaceAll(".", "")
+    .replaceAll("-", "")
+    .replaceAll("~", "")
+    .replaceAll("\t", "");
 }
 
 /**
