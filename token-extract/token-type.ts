@@ -48,7 +48,7 @@ function recognizeChordTab(input: string): boolean {
 // Reason: we have things like cm7pause in the documents
 
 const commonWords = new Set(
-  "stop for free guitar etc fret yeah you your with til oh faster repeat break bridge chorus coda instrumental int interlude intro let outro solo verse mute until hit note on string each and then play tuned half step down barre riff open single strum walk to low high once bend hold pause".split(
+  "stop for free fill guitar etc fret yeah you your with til oh faster repeat break bridge chorus coda instrumental int interlude intro let outro solo verse mute until hit note on string each and then play tuned half step down barre riff open single strum walk to low high once bend hold pause".split(
     " ",
   ),
 );
