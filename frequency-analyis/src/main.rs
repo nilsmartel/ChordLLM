@@ -7,6 +7,7 @@ fn main() {
     let mut table = fmap.into_iter().collect::<Vec<_>>();
     table.sort_unstable();
 
+    println!("token;frequency");
     for (token, freq) in table {
         println!("{token};{freq}");
     }
