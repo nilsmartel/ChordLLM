@@ -1,5 +1,32 @@
+use std::collections::HashSet;
+
 fn main() {
-    println!("Hello, world!");
+    let input = std::io::stdin().lines();
+
+    let valid_file = std::env::args()
+        .nth(1)
+        .expect("first argument to be path to file containing valid chords.");
+
+    let valid_set: HashSet<String> = std::fs::read_to_string(&valid_file)
+        .expect("read valid chord file into string")
+        .lines()
+        .map(str::to_owned)
+        .collect();
+
+    for line in input {
+        let line = line.expect("line to be readable into string");
+        // only simplify "new" chords
+        let output = if valid_set.contains(&line) {
+            line
+        } else {
+            simplify_chord(line)
+        };
+        println!("{}", output);
+    }
+}
+
+fn simplify_chord(input: String) -> String {
+    remove_digits(input)
 }
 
 fn remove_digits(input: String) -> String {
