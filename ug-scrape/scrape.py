@@ -24,3 +24,10 @@ def song_overview_page_urls(soup):
     return hrefs
 
 
+
+i = 0
+for u in song_urls():
+    print(u)
+    i += 1
+    if i > 10:
+        break
