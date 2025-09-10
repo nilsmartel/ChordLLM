@@ -26,6 +26,7 @@ async function* songUrls() {
 
       const urls = songOverviewPageUrls($);
       console.log("urls: ", urls);
+      // TODO URLS.length == 0 is a current problem
       for (const songUrl of urls) {
         yield songUrl;
       }
