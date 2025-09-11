@@ -1,6 +1,15 @@
 import axios from "axios";
 import * as cheerio from "cheerio";
 
+// "One liner" to make it easier to play around.
+const loadSamplePage = () =>
+  axios
+    .get(
+      "https://www.ultimate-guitar.com/explore?order=songname_asc&type[]=Chords",
+    )
+    .then((r) => r.data)
+    .then(cheerio.load);
+
 async function* songOverviewPages() {
   for (let i = 1; ; i++)
     yield `https://www.ultimate-guitar.com/explore?order=songname_asc&type[]=Chords&page=${i}`;
