@@ -1,6 +1,9 @@
 import axios from "axios";
 import * as cheerio from "cheerio";
 
+// NOTE none if this will work, as the data gets processed as a string,
+// instead of directly sending structured dom nodes
+
 // "One liner" to make it easier to play around.
 const loadSamplePage = () =>
   axios
