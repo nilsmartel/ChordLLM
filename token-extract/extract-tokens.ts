@@ -19,6 +19,7 @@ export function getRawInputLines(filepath: string): string[] {
  * "em"
  */
 export function transformToken(token: string) {
+  if (token == START_OF_SONG) return token;
   if (token.startsWith("/")) token = token.substring(1);
   return token
     .trim()
