@@ -26,10 +26,21 @@ fn main() {
 }
 
 fn simplify_chord(input: String) -> String {
-    remove_digits(input)
+    let input = remove_overlayed_chords(input);
+    let input = remove_digits(input);
+    input
 }
 
 /// Em7 => Em
 fn remove_digits(input: String) -> String {
     input.chars().filter(|c| *c <= '0' || *c >= '9').collect()
+}
+
+// am9/gb => am9
+fn remove_overlayed_chords(input: String) -> String {
+    if let Some((a, _b)) = input.split_once("/") {
+        a.to_string()
+    } else {
+        input
+    }
 }
