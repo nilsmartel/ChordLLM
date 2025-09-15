@@ -29,6 +29,7 @@ fn simplify_chord(input: String) -> String {
     remove_digits(input)
 }
 
+/// Em7 => Em
 fn remove_digits(input: String) -> String {
     input.chars().filter(|c| *c <= '0' || *c >= '9').collect()
 }
