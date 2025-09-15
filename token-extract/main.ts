@@ -15,6 +15,11 @@ function getFilename(): string {
   }
   if (filepath == "-") filepath = "/dev/stdin";
 
+  // conviniencehack for myself
+  if (filepath == ":default")
+    filepath =
+      "./ultimate-guitar/ultimate-guitar-popular-tabs/top_songs_full.csv";
+
   return filepath;
 }
 
