@@ -85,11 +85,13 @@ function transformSomeOutlierLines(line: string) {
 }
 
 function isNewSong(line: String): boolean {
+  // line starts with digit and contains "http" and contains lots of ","
   let firstChar = line.charAt(0);
   let commaCount = line.length - line.replaceAll(",", "").length;
   return (
     firstChar >= "0" &&
     firstChar <= "9" &&
+    line.includes("http") &&
     commaCount > 5
   );
 }
