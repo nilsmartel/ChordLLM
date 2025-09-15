@@ -28,6 +28,8 @@ fn main() {
 fn simplify_chord(input: String) -> String {
     let input = remove_overlayed_chords(input);
     let input = remove_digits(input);
+    let input = remove_maj_min(input);
+    let input = remove_odd_characters(input);
     input
 }
 
@@ -43,4 +45,13 @@ fn remove_overlayed_chords(input: String) -> String {
     } else {
         input
     }
+}
+
+fn remove_maj_min(input: String) -> String {
+    input.replace("maj", "").replace("min", "")
+}
+
+fn remove_odd_characters(input: String) -> String {
+    let is_legit = |c: char| c.is_ascii_alphanumeric() || c == '/' || c == '#';
+    input.chars().filter(|c| is_legit(*c)).collect()
 }
