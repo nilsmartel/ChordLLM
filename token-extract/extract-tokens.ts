@@ -1,4 +1,5 @@
 import fs from "fs";
+import { getSymbolType, TokenType } from "./token-type";
 
 export const START_OF_SONG = "<start-of-song>";
 
