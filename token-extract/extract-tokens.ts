@@ -103,6 +103,9 @@ function isNewSong(line: String): boolean {
  */
 export function getTokensUnclean(line: string): string[] {
   /* TODO recognize end of song and export as unique token */
+  if (isNewSong(line)) {
+    return [START_OF_SONG];
+  }
 
   // if this percentage of tokens are valid tokens, all tokens in the line are assumed to be valid
   const CUTOFF_VALUE = 0.5;
