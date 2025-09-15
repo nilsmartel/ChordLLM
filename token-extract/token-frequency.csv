@@ -1,4 +1,5 @@
 token;frequency
+<start-of-song>;5000
 a;24730
 a#;75
 a#/a;2
@@ -920,7 +921,6 @@ fdim7;28
 ff;2
 fig;3
 fig1;1
-fill;9
 fill2;3
 fill3;3
 final;1
