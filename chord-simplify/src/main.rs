@@ -19,12 +19,15 @@ fn main() {
     for line in input {
         let line = line.expect("line to be readable into string");
         // only simplify "new" chords
-        let output = if valid_set.contains(&line) {
-            line
-        } else {
-            simplify_chord(line)
-        };
-        println!("{}", output);
+        if valid_set.contains(&line) {
+            println!("{}", line);
+        }
+        // Simplify chord
+        let chord = simplify_chord(line);
+        // and only print it, if it is contained in target set.
+        if valid_set.contains(&chord) {
+            println!("{}", chord);
+        }
     }
 }
 
