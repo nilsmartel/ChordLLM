@@ -86,9 +86,11 @@ function transformSomeOutlierLines(line: string) {
 
 function isNewSong(line: String): boolean {
   let firstChar = line.charAt(0);
+  let commaCount = line.length - line.replaceAll(",", "").length;
   return (
     firstChar >= "0" &&
     firstChar <= "9" &&
+    commaCount > 5
   );
 }
 
