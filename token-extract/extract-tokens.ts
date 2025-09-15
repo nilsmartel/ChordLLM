@@ -1,5 +1,7 @@
 import fs from "fs";
 
+export const START_OF_SONG = "<start-of-song>";
+
 export function getRawInputLines(): string[] {
   const filepath =
     "./ultimate-guitar/ultimate-guitar-popular-tabs/top_songs_full.csv";
