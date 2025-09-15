@@ -3,10 +3,7 @@ import { getSymbolType, TokenType } from "./token-type";
 
 export const START_OF_SONG = "<start-of-song>";
 
-export function getRawInputLines(): string[] {
-  const filepath =
-    "./ultimate-guitar/ultimate-guitar-popular-tabs/top_songs_full.csv";
-
+export function getRawInputLines(filepath: string): string[] {
   let content = String(fs.readFileSync(filepath));
   // console.log("bytes:", content.length);
 
