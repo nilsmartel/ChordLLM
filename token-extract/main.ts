@@ -1,6 +1,7 @@
 import {
   getRawInputLines,
   getTokensUnclean,
+  START_OF_SONG,
   transformToken,
 } from "./extract-tokens";
 import { TokenType, getSymbolType } from "./token-type";
@@ -8,6 +9,7 @@ import { TokenType, getSymbolType } from "./token-type";
 // TODO end of song tokens
 
 function verifyAndCleanLine(line: string[]): string[] | null {
+  if (line.length == 1 && line[0] == START_OF_SONG) return line;
   let symbols = line.map(getSymbolType);
 
   let newLine: string[] = [];
