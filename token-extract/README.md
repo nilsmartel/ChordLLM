@@ -76,7 +76,10 @@ I think I will end up just cutting of the tokens and remain with a set of 256 ch
 
 ### Step 5
 
-TODO simplify chords
+Chord simplification.
+
+From the set of unusual tokens, we perform some simplification (see /chord-simplify).
+if the chord is in the set of valid tokens, we print it.
 
 ### Step 6
 
