@@ -84,6 +84,14 @@ function transformSomeOutlierLines(line: string) {
   return line;
 }
 
+function isNewSong(line: String): boolean {
+  let firstChar = line.charAt(0);
+  return (
+    firstChar >= "0" &&
+    firstChar <= "9" &&
+  );
+}
+
 /**
  * Processes a line of text,
  * deciding wether it's compromised of tokens
