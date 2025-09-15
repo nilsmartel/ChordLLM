@@ -3,9 +3,12 @@ use std::collections::HashSet;
 fn main() {
     let input = std::io::stdin().lines();
 
-    let valid_file = std::env::args()
-        .nth(1)
-        .expect("first argument to be path to file containing valid chords.");
+    let Some(valid_file) = std::env::args().nth(1) else {
+        eprintln!(
+            "Error: expect first argument to be path to file containing list of valid chords"
+        );
+        std::process::exit(1);
+    };
 
     let valid_set: HashSet<String> = std::fs::read_to_string(&valid_file)
         .expect("read valid chord file into string")
