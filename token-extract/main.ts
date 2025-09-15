@@ -7,8 +7,6 @@ import {
 } from "./extract-tokens";
 import { TokenType, getSymbolType } from "./token-type";
 
-// TODO end of song tokens
-
 const input = getRawInputLines();
 
 for (let line of input) {
