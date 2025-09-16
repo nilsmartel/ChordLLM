@@ -1,3 +1,4 @@
+import * as fs from "node:fs";
 //
 // file contains functions to extract data from ug page
 function unsanitze(s) {
@@ -31,3 +32,15 @@ export function extractDataUrlOverview(s) {
   }));
 }
 
+/*
+  takes ug chord html-page and extracts the chord txt as string
+*/
+export function extractDataChordPage(s) {
+  let fullData = extractDataContent(s);
+  return fullData;
+}
+
+let res = extractDataContent(
+  String(fs.readFileSync("./sample-chord-page.html")),
+);
+console.log(JSON.stringify(res));
