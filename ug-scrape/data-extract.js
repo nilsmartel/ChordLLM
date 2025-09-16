@@ -36,7 +36,7 @@ export function extractDataUrlOverview(s) {
 /*
   takes ug chord html-page and extracts the chord txt as string
 */
-export function extractDataChordPage(s) {
+export function extractChordSheet(s) {
   let fullData = extractDataContent(s);
   return fullData;
 }
