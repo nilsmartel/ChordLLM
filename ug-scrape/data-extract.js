@@ -41,7 +41,3 @@ export function extractChordSheet(s) {
   return fullData;
 }
 
-let res = extractDataContent(
-  String(fs.readFileSync("./sample-chord-page.html")),
-);
-console.log(JSON.stringify(res));
