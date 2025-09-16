@@ -18,3 +18,16 @@ export function extractDataContent(s) {
   // it's in json format, so we can work with a js object here
   return JSON.parse(json);
 }
+
+/*
+  takes ug html page and extracts json.
+  returns Array of {artist_name, tab_url}
+*/
+export function extractDataUrlOverview(s) {
+  let fullData = extractDataContent(s);
+  return fullData.store.page.data.data.tabs.map((s) => ({
+    artist_name: s.artist_name,
+    tab_url: s.tab_url,
+  }));
+}
+
