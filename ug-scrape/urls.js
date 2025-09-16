@@ -17,6 +17,10 @@ export async function* songUrls(start, max) {
       let info = extractDataUrlOverview(response);
       let last_artist = "";
       for (const { artist_name, tab_url } of info) {
+        // Since artist usually dont have multiple songs with the same name
+        // this is an effective way to filter out multiples.
+        if (artist_name == last_artist) continue;
+        last_artist = artist_name;
         yield tab_url;
       }
     } catch (error) {
