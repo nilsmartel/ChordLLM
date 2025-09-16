@@ -38,6 +38,7 @@ export function extractDataUrlOverview(s) {
 */
 export function extractChordSheet(s) {
   let fullData = extractDataContent(s);
-  return fullData;
-}
+  let pagestr = fullData.store.page.data.tab_view.wiki_tab.content;
 
+  return unsanitze(pagestr).replace(/\[\/?\w+]/g, " ");
+}
