@@ -8,7 +8,8 @@ function unsanitze(s) {
     .replace(/&lt;/g, "<")
     .replace(/&gt;/g, ">")
     .replace(/&#39;/g, "'")
-    .replace(/&nbsp;/g, " ");
+    .replace(/&nbsp;/g, " ")
+    .replaceAll("&ntilde;", "~");
 }
 
 export function extractDataContent(s) {
