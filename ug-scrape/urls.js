@@ -29,16 +29,3 @@ export async function* songUrls(start, max) {
     }
   }
 }
-
-async function main() {
-  try {
-    for await (const u of songUrls(1, 10)) {
-      console.log(u);
-    }
-  } catch (error) {
-    console.error("Error:", error.message);
-  }
-}
-
-// Run the script
-main();
