@@ -7,7 +7,8 @@ import { extractDataUrlOverview } from "./data-extract.js";
 
 async function* songOverviewPages(start, max) {
   for (let i = start; i < max; i++)
-    yield `https://www.ultimate-guitar.com/explore?order=songname_asc&type[]=Chords&page=${i}`;
+    // yield `https://www.ultimate-guitar.com/explore?order=songname_asc&type[]=Chords&page=${i}`;
+    yield `https://www.ultimate-guitar.com/explore?order=date_desc&type[]=Chords&page=${i}`;
 }
 
 export async function* songUrls(start, max) {
