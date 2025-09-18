@@ -79,6 +79,6 @@ for (let file of filenames) {
     tokens = tokens.map(transformToken);
     for (let t of tokens) console.log(t);
   }
-  console.error((i + 1) + " / " + total);
+  console.error(i + " / " + total);
 
 }
