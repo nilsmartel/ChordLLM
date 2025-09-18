@@ -41,19 +41,6 @@ export function transformToken(token: string) {
 }
 
 /**
- * returns the set of valid (transformed) tokens
- * @returns Set<String>
- */
-function getValidTokens(): Set<String> {
-  const filepath = "./valid-tokens.csv";
-  let content = String(fs.readFileSync(filepath));
-  let lines = content.split("\n");
-  return new Set(lines);
-}
-
-const VALID_TOKENS = getValidTokens();
-
-/**
  * handles some common outliers and filters unwanted lines
  */
 function transformSomeOutlierLines(line: string) {
@@ -100,7 +87,7 @@ function isNewSong(line: String): boolean {
  * deciding wether it's compromised of tokens
  * and, if so, returns the (transformed) tokens.
  */
-export function getTokensUnclean(line: string): string[] {
+export function getTokensUnclean(line: string, validTokens: Set<string>): string[] {
   /* TODO recognize end of song and export as unique token */
   if (isNewSong(line)) {
     return [START_OF_SONG];
@@ -119,7 +106,7 @@ export function getTokensUnclean(line: string): string[] {
   if (rawTokens.length == 0) return [];
 
   let tokenratio: number =
-    rawTokens.map(transformToken).filter((t) => VALID_TOKENS.has(t)).length /
+    rawTokens.map(transformToken).filter((t) => validTokens.has(t)).length /
     rawTokens.length;
 
   // if there aren't any tokens we recognize as chords,
