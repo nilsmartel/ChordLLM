@@ -1,6 +1,7 @@
 import {
   getRawInputLines,
   getTokensUnclean,
+  START_OF_SONG,
   transformToken,
   verifyAndCleanLine,
 } from "./extract-tokens";
@@ -68,6 +69,7 @@ for (let file of filenames) {
     continue
   }
   const input = getRawInputLines(file);
+  console.log(START_OF_SONG)
 
   for (let line of input) {
     let uncleanTokens = getTokensUnclean(line, validTokens);
