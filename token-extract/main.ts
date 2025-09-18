@@ -6,6 +6,7 @@ import {
 } from "./extract-tokens";
 
 import fs from "fs";
+import path from "path";
 
 function getCliArgs(): [string, string] {
   let filepath = process.argv[2];
@@ -25,8 +26,6 @@ function getCliArgs(): [string, string] {
 }
 
 const [filename, validTokenFile] = getCliArgs()
-const input = getRawInputLines(filename);
-
 
 /**
  * returns the set of valid (transformed) tokens
@@ -40,11 +39,44 @@ function getValidTokens(filepath: string): Set<string> {
 
 const validTokens = getValidTokens(validTokenFile);
 
-for (let line of input) {
-  let uncleanTokens = getTokensUnclean(line, validTokens);
-  let tokens = verifyAndCleanLine(uncleanTokens);
-  if (tokens == null) continue;
+// Synchronous
+function isDirectory(path: string): boolean {
+    try {
+        const stats = fs.statSync(path);
+        return stats.isDirectory();
+    } catch (error) {
+        console.error("failed to stat path:", path, error);
+        process.exit(1)
+    }
+}
 
-  tokens = tokens.map(transformToken);
-  for (let t of tokens) console.log(t);
+let filenames = []
+try {
+  filenames = isDirectory(filename)? fs.readdirSync(filename).map(f => path.join(filename, f)) : [filename];
+} catch (e) {
+  console.error("Error reading directory or file:", e);
+  process.exit(1);
+}
+
+
+let total = filenames.length
+console.error("0 / " + total);
+let i = 0
+for (let file of filenames) {
+  i++
+  if (isDirectory(file)) {
+    continue
+  }
+  const input = getRawInputLines(file);
+
+  for (let line of input) {
+    let uncleanTokens = getTokensUnclean(line, validTokens);
+    let tokens = verifyAndCleanLine(uncleanTokens);
+    if (tokens == null) continue;
+
+    tokens = tokens.map(transformToken);
+    for (let t of tokens) console.log(t);
+  }
+  console.error((i + 1) + " / " + total);
+
 }
