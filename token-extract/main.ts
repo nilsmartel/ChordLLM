@@ -32,7 +32,7 @@ const input = getRawInputLines(filename);
  * returns the set of valid (transformed) tokens
  * @returns Set<String>
  */
-function getValidTokens(filepath): Set<String> {
+function getValidTokens(filepath: string): Set<string> {
   let content = String(fs.readFileSync(filepath));
   let lines = content.split("\n");
   return new Set(lines);
@@ -42,7 +42,7 @@ const validTokens = getValidTokens(validTokenFile);
 
 for (let line of input) {
   let uncleanTokens = getTokensUnclean(line, validTokens);
-  let tokens = verifyAndCleanLine(getTokensUnclean(line));
+  let tokens = verifyAndCleanLine(uncleanTokens);
   if (tokens == null) continue;
 
   tokens = tokens.map(transformToken);
