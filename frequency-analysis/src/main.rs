@@ -4,12 +4,16 @@ fn main() {
     let lines = std::io::stdin().lines().map(|s| s.unwrap());
     let fmap = frequency(lines);
 
-    let mut table = fmap.into_iter().collect::<Vec<_>>();
+    let mut table = fmap
+        .into_iter()
+        .map(|(token, freq)| (freq, token))
+        .collect::<Vec<_>>();
     table.sort_unstable();
 
     println!("token;frequency");
     for (token, freq) in table {
         println!("{token};{freq}");
+    println!("frequency;token");
     }
 }
 
