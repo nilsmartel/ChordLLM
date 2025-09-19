@@ -97,7 +97,7 @@ export function getTokensUnclean(line: string, validTokens: Set<string>): string
   const CUTOFF_VALUE = 0.5;
 
   // remove all whitespace from line
-  let lraw = line.replaceAll("\r", " ").replaceAll("\t", " ").trim();
+  let lraw = line.replaceAll("\r", " ").replaceAll("\t", " ").replace(/&[#\w]*;/g, "").trim();
 
   let l = transformSomeOutlierLines(lraw);
   if (!l) return [];
