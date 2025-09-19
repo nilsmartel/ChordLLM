@@ -10,10 +10,9 @@ fn main() {
         .collect::<Vec<_>>();
     table.sort_unstable();
 
-    println!("token;frequency");
-    for (token, freq) in table {
-        println!("{token};{freq}");
     println!("frequency;token");
+    for (freq, token) in table.into_iter().rev() {
+        println!("{};{}", freq, token);
     }
 }
 
