@@ -1,6 +1,11 @@
 use std::collections::HashMap;
 
+
+
 fn main() {
+    let args = std::env::args().collect::<Vec<_>>();
+    let show_header = !args.contains(&"--no-header".to_string());
+
     let lines = std::io::stdin().lines().map(|s| s.unwrap());
     let fmap = frequency(lines);
 
@@ -10,7 +15,9 @@ fn main() {
         .collect::<Vec<_>>();
     table.sort_unstable();
 
-    println!("frequency;token");
+    if show_header {
+        println!("frequency;token");
+    }
     for (freq, token) in table.into_iter().rev() {
         println!("{};{}", freq, token);
     }
