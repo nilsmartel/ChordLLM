@@ -8,7 +8,7 @@ try {
   const json = JSON.parse(content);
 
   for (let cell in json.cells) {
-    if (cell.outputs) cell.outputs = [];
+    if (cell.outputs) cell.outputs.clear();
   }
 
   fs.writeFileSync(filename, JSON.stringify(json));
