@@ -54,7 +54,7 @@ fn remove_overlayed_chords(input: String) -> String {
 }
 
 fn remove_maj_min(input: String) -> String {
-    input.replace("maj", "").replace("min", "")
+    input.replace("maj", "").replace("min", "").replace("sus", "")
 }
 
 fn remove_odd_characters(input: String) -> String {
