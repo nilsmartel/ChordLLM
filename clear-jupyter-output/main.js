@@ -7,7 +7,7 @@ try {
   const content = String(fs.readFileSync(filename));
   const json = JSON.parse(content);
 
-  for (let cell in json.cells) {
+  for (let cell of json.cells) {
     if (cell.outputs) cell.outputs.clear();
   }
 
