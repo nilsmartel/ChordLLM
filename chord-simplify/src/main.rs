@@ -21,9 +21,10 @@ fn main() {
         // only simplify "new" chords
         if valid_set.contains(&line) {
             println!("{}", line);
+            continue;
         }
         // Simplify chord
-        let chord = simplify_chord(line);
+        let chord = simplify_chord(line, &valid_set);
         // and only print it, if it is contained in target set.
         if valid_set.contains(&chord) {
             println!("{}", chord);
@@ -31,11 +32,20 @@ fn main() {
     }
 }
 
-fn simplify_chord(input: String) -> String {
-    let input = remove_overlayed_chords(input);
-    let input = remove_digits(input);
-    let input = remove_maj_min(input);
-    let input = remove_odd_characters(input);
+fn simplify_chord(mut input: String, valid_set: &HashSet<String>) -> String {
+    for f in [
+        remove_overlayed_chords,
+        remove_odd_characters,
+        remove_maj_min,
+        remove_digits,
+    ] {
+        let simplified = f(input);
+        if valid_set.contains(&simplified) {
+            return simplified;
+        }
+        input = simplified;
+    }
+    
     input
 }
 
