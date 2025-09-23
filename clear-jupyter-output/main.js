@@ -3,6 +3,7 @@ const process = require("process");
 
 try {
   const filename = process.argv[2];
+  if (!filename) throw "Expected first argument to be path of jupyter notebook";
   const content = String(fs.readFileSync(filename));
   const json = JSON.parse(content);
 
