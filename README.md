@@ -1,27 +1,17 @@
 # Chord LLM
 
-The code in this readme should describe the pipeline to get to the finished and trained LLM, including collecting scraping data.
+This project serves as an experiment to create an language model specifically for chord progression.
 
-The steps should be executed in order.
+It consists of several tools that were created in order to
 
-## Scrape chord sheets
+- scrape data
+- extract data
+- refine data
 
-```bash
-cd ug-scrape
-node main.js
-```
+refined training data can be found in the `output/` directory.
 
-## Simplify data
+Further work needs to be done in training and deploying the languge model.
 
-```bash
-cd output
-for f in *
-do
-    ../../simplify-whitespace $f
-done
-```
+## Notebook
 
-## Cultivate dataset
-```bash
-mkdir output
-```
+Running the code needed to do all these steps is document via a jupyter notebook.
