@@ -1,37 +1,37 @@
 name: Clear Jupyter Output
 on:
-  push:
-    branches: [main]
+    push:
+        branches: [main]
 
 jobs:
-  clear-output:
-    runs-on: ubuntu-latest
+    clear-output:
+        runs-on: ubuntu-latest
 
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          fetch-depth: 0
+        steps:
+            - name: Checkout repository
+              uses: actions/checkout@v4
+              with:
+                  token: ${{ secrets.GITHUB_TOKEN }}
+                  fetch-depth: 0
 
-      - name: Run clear-jupyter-output script
-        run: |
-          node ./clear-jupyter-output/main.js ./Pipeline.ipynb
+            - name: Run clear-jupyter-output script
+              run: |
+                  node ./clear-jupyter-output/main.js ./Pipeline.ipynb
 
-      - name: Check for changes
-        id: check_changes
-        run: |
-          if git diff --quiet; then
-            echo "changes=false" >> $GITHUB_OUTPUT
-          else
-            echo "changes=true" >> $GITHUB_OUTPUT
-          fi
+            - name: Check for changes
+              id: check_changes
+              run: |
+                  if git diff --quiet; then
+                    echo "changes=false" >> $GITHUB_OUTPUT
+                  else
+                    echo "changes=true" >> $GITHUB_OUTPUT
+                  fi
 
-      - name: Commit and push if changes
-        if: steps.check_changes.outputs.changes == 'true'
-        run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git add ./Pipeline.ipynb
-          git commit -m "Clear Jupyter notebook output [automated]"
-          git push
+            - name: Commit and push if changes
+              if: steps.check_changes.outputs.changes == 'true'
+              run: |
+                  git config --local user.email "action@github.com"
+                  git config --local user.name "GitHub Action"
+                  git add ./Pipeline.ipynb
+                  git commit -m "Clear Jupyter notebook output [automated]"
+                  git push

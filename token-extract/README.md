@@ -10,6 +10,7 @@ this is proving to be a bit of challenge.
 The solution to gather data shaped itself incrementally and, while increasingly getting better, we deal with data of high variety and won't aim for perfection here.
 
 ### Step 1
+
 we have a document of thousands of chord documents, concatenated.
 
 by simply going over all lines I filtered which had a high likelyhood
@@ -51,7 +52,7 @@ d xx0232
 
 a list of common words that came up was created:
 
-  stop for free fill guitar etc fret yeah you your with til oh faster repeat break bridge chorus coda instrumental int interlude intro let outro solo verse mute until hit note on string each and then play tuned half step down barre riff open single strum walk to low high once bend hold pause
+stop for free fill guitar etc fret yeah you your with til oh faster repeat break bridge chorus coda instrumental int interlude intro let outro solo verse mute until hit note on string each and then play tuned half step down barre riff open single strum walk to low high once bend hold pause
 
 and just various adjustments were made, some rather unintuitive.
 
@@ -72,6 +73,7 @@ Here's a graph of the frequency of tokens:
 ![Graph showcasing frequency distribution of tokens](./token-frequency.png)
 
 I think I will end up just cutting of the tokens and remain with a set of 256 chords.
+
 - All tokens that are not in that set will be simplified (e.g. Em7 => Em) and if they are not in the set after basic simpification, just discarded.
 
 ### Step 5
