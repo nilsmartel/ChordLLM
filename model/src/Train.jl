@@ -83,6 +83,9 @@ function train!(model::GPT, ids::Vector{Int};
 
         if step % log_every == 0 || step == 1
             @info "training" step loss=l skipped=skipped
+
+            # reset skipped, so it's only showing steps skipped in current log interval
+            skipped = 0
         end
     end
     return model

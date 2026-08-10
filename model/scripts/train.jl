@@ -19,7 +19,7 @@ ids   = corpus_ids(songs, t2i; boundary = boundary_id(vocab))
 # 2. build a fresh model (Small defaults) and train it
 cfg   = GPTConfig()
 model = GPT(cfg)
-model = train!(model, ids; steps = 3000, batch = 32)
+model = train!(model, ids; steps = 500, batch = 32, log_every=32)
 
 # 3. save the trained weights
 save_model(CHECKPOINT, model)
